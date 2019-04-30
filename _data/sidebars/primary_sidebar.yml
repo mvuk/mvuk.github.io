@@ -1,0 +1,42 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: Overview
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /index.html
+      output: web
+
+  - title: Classes
+    output: web
+    folderitems:
+    - title: Actor
+      url: /classes_actor.html
+      output: web
+
+  - title: Modules
+    output: web
+    folderitems:
+    - title: DocumentOwner
+      url: /modules_document_owner.html
+      output: web
+    - title: GenerateID
+      url: /modules_generate_id.html
+      output: web
+    - title: GraphQueries
+      url: /modules_graph_queries.html
+      output: web
+    - title: LocationBasedRole
+      url: /modules_location_based_role.html
+      output: web
+    - title: ParameterAttributes
+      url: /modules_parameter_attributes.html
+      output: web
+    - title: ServiceRole
+      url: /modules_service_role.html
+      output: web
