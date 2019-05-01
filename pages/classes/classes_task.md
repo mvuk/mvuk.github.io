@@ -11,6 +11,12 @@ folder: classes
 
 ## Introduction
 
+Tasks are used by administrators in their dashboards. When any administrator signs into their dashboard, they will see a list of tasks that are incomplete.
+
+At this stage of development, they are used as assignments to specific roles that need to be worked on. An example situation where tasks is used is the onboarding of tow truck drivers.
+
+Right now, class methods are used to return lists of target pages where incomplete work must be addressed by the administrator. In the next stage of development, this class will evolve into the creation of specific task nodes that are created with the outlined properties.
+
 ## Modules
 
 * Neo4j::ActiveNode
@@ -24,3 +30,31 @@ folder: classes
 ## Methods
 
 ## Class Methods
+
+### verify_tow_truck_driver_documents
+
+__Parameters__
+
+None
+
+__Return value__
+
+Array of IDs belonging to tow truck drivers who have unverified documents
+
+__Description__
+
+This method looks up all tow truck drivers who have any documents that are unverified. It collects all of their unique identifiers and returns them as an array. The administrator receives formatted links in his dashboard that go to the specific tow truck driver profile page where he will verify the documents individually.
+
+### incomplete_tasks
+
+__Parameters__
+
+None
+
+__Return value__
+
+Returns all task objects that have not been marked as complete.
+
+__Description__
+
+*(Not yet implemented)*
