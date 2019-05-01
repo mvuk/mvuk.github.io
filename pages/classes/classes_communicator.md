@@ -5,7 +5,7 @@ title: Communicator
 last_updated: May 1 2019
 #summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
 #sidebar: primary_sidebar
-permalink: classes_comment.html
+permalink: classes_communicator.html
 folder: classes
 ---
 
