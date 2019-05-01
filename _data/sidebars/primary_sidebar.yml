@@ -31,12 +31,3 @@ entries:
     - title: GraphQueries
       url: /modules_graph_queries.html
       output: web
-    - title: LocationBasedRole
-      url: /modules_location_based_role.html
-      output: web
-    - title: ParameterAttributes
-      url: /modules_parameter_attributes.html
-      output: web
-    - title: ServiceRole
-      url: /modules_service_role.html
-      output: web
