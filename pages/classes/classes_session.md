@@ -11,6 +11,12 @@ folder: classes
 
 ## Introduction
 
+*Not currently used.*
+
+This class will be used for the purpose of keeping track of user actions on the application.
+
+We may explore other solutions, such as free-software analytics tools that can track user actions, but we will want to be keeping track of users in our own specific format.
+
 ## Modules
 
 * Neo4j::ActiveNode
@@ -20,6 +26,17 @@ folder: classes
 ## Relationships
 
 ## Properties
+
+|Property|Type|
+|+-+|
+|:state|String|
+|:ip_address|String|
+|:country|String|
+|:browser|String|
+|:id|String|
+|:cookie|String|
+|:url|String|
+|:total_time|String|
 
 ## Methods
 
