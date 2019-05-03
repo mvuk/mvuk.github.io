@@ -11,6 +11,8 @@ folder: classes
 
 ## Introduction
 
+The location object is a latitude/longitude pair. While a service is running, the application polls for location services constantly.
+
 ## Modules
 
 * Neo4j::ActiveNode
@@ -19,7 +21,16 @@ folder: classes
 
 ## Relationships
 
+|Relationship|Direction|Name|RelClass|Target Class|
+|+-+|
+|has_one|:out|:address||[Address](/classes_address.html)|
+
 ## Properties
+
+|Property|Type|
+|+-+|
+|:longitude|Float|
+|:latitude|Float|
 
 ## Methods
 
