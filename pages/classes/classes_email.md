@@ -20,7 +20,17 @@ folder: classes
 
 ## Relationships
 
+|Relationship|Direction|Name|RelClass|Target Class|
+|+-+|
+|has_one|:in|:contact_info||[ContactInfo](/classes_contact_info.html)|
+
 ## Properties
+
+|Property|Type|
+|+-+|
+|:sort_order|String|
+|:description|String|
+|:address|String|
 
 ## Methods
 
