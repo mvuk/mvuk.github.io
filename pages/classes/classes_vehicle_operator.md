@@ -11,6 +11,12 @@ folder: classes
 
 ## Introduction
 
+*Inherits from [Role](/classes_role.html)*
+
+The VehicleOperator class is used as the parent role to both [Customer](/classes_customer.html) and [TowTruckDriver](/classes_tow_truck_driver.html). It contains all of the relationships, properties and methods that these two classes share.
+
+The VehicleOperator class also makes use of the VehicleOperators Controller, which both the Customer controller and the Tow Truck Driver controller inherit from.
+
 ## Modules
 
 * Neo4j::ActiveNode

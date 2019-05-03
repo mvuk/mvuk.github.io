@@ -11,17 +11,40 @@ folder: classes
 
 ## Introduction
 
+The communicator class manages all of the methods that use outbound communication from the system, such as SMS and Emails. The Communicator is a singleton class, and its methods are called from within other classes and controllers whenever it is time to send a message.
+
+Requires `twilio-ruby` gem.
 
 ## Modules
 
-* Neo4j::ActiveNode
-* Neo4j::Timestamps
-* [GraphQueries](/modules_graph_queries.html)
+* Singleton
 
 ## Relationships
 
 ## Properties
 
+|Property|Type|
+|+-+|
+|:account_sid|String|
+|:auth_token|String|
+|:sent_from_number|String|
+
 ## Methods
+
+### initialize
+
+### account_sid
+
+### auth_token
+
+### sent_from_number
+
+### setup_client(account_sid, auth_token)
+
+### document_completion_notification
+
+### organization_invitation
+
+### organization_confirmation
 
 ## Class Methods
