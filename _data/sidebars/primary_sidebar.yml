@@ -12,6 +12,20 @@ entries:
       url: /index.html
       output: web
 
+  - title: Overview
+    output: web
+    folderitems:
+    - title: Images
+      url: /assets_images.html
+      output: web
+    - title: Javascript
+      url: /assets_javascript.html
+      output: web
+    - title: Stylesheets
+      url: /assets_stylesheets.html
+      output: web
+
+
   - title: Classes
     output: web
     folderitems:
