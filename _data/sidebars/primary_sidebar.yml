@@ -11,6 +11,10 @@ entries:
     - title: Introduction
       url: /index.html
       output: web
+    - title: Package Managers
+      url: /overview_package_managers.html
+      output: web
+
 
   - title: Assets
     output: web

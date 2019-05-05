@@ -11,13 +11,20 @@ folder: assets
 
 ## Introduction
 
-This page will highlight the various JavaScript files and each of their respective purpose within the SafeTow Rails project. Each group of JavaScript functions is grouped into a file where other functions are written in conjuction to achieve a common goal.
+This page will highlight the various JavaScript files and each of their respective purpose within the SafeTow Rails project.
+
+JavaScript is all stored in the project directory of `app/assets/javascript`. Simply adding new JavaScript classes to there will include them application-wide.
+
+Each group of JavaScript functions is grouped into a file where other functions are written in conjunction to achieve a common goal.
+
 
 ## JavaScript libraries
 
 ### jQuery
 
-The [jQuery library](https://jquery.com/) is included for usage of manipulating DOM elements. It'
+The [jQuery library](https://jquery.com/) is included for usage of manipulating DOM elements.
+
+In this project, jQuery is managed by the [yarn](/overview_package_managers#yarn) package manager.
 
 ### Google Maps JavaScript API
 

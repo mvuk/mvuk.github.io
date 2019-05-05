@@ -9,10 +9,6 @@ permalink: assets_images.html
 folder: assets
 ---
 
-## Introduction
-
-The SafeTow application has
-
 ## Application Images
 
 __These images are part of the SafeTow application and are static. They appear in pre-selected areas to give meaning and context to interactions within the application.__
