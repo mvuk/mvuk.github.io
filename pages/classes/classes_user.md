@@ -28,25 +28,25 @@ While the Person class addresses the physical characteristics of a person, the U
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:out|:preference||[Preference](/classes_preference)|
+|has_one|out|preference||[Preference](/classes_preference)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:login_name|String|
-|:unique_login_name|String|
-|:passphrase_hash|String|
-|:alias|String|
-|:group|String|
-|:status|String|
-|:data_access_level|String|
-|:question|String|
-|:answer|String|
-|:hint|String|
-|:verification_code|String|
-|:verified|String|
-|:passphrase_recovery_code|String|
+|login_name|String|
+|unique_login_name|String|
+|passphrase_hash|String|
+|alias|String|
+|group|String|
+|status|String|
+|data_access_level|String|
+|question|String|
+|answer|String|
+|hint|String|
+|verification_code|String|
+|verified|String|
+|passphrase_recovery_code|String|
 
 ## Methods
 

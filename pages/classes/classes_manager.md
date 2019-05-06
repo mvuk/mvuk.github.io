@@ -31,13 +31,13 @@ This class also determines the access level to which the manager is granted over
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:out|:organization||[Organization](/classes_organization)|
+|has_one|out|organization||[Organization](/classes_organization)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:access_level|String|
+|access_level|String|
 
 ## Methods
 

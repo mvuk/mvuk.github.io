@@ -29,8 +29,8 @@ _Currently not in use._ To be used for analytics and user tracking.
 
 |Property|Type|
 |+-+|
-|:current|String|
-|:time_viewed|String|
+|current|String|
+|time_viewed|String|
 
 ## Methods
 

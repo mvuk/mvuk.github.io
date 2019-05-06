@@ -29,7 +29,7 @@ The insurance company class is managed by the [InsuranceCompanyManager](/classes
 
 |Property|Type|
 |+-+|
-|:countries_serviced|Array|
+|countries_serviced|Array|
 
 ## Methods
 

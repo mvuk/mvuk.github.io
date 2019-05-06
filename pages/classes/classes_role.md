@@ -30,17 +30,17 @@ _A tow truck driver is using the application to serve customers. His [tow truck 
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:in|:actor|[HasRole](/classes_has_role)|[Actor](/classes_actor)|
+|has_one|in|actor|[HasRole](/classes_has_role)|[Actor](/classes_actor)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:test_mode|Boolean|
-|:production_mode|Boolean|
-|:active_status|String|
-|:confirmation_code|String|
-|:confirmed|String|
+|test_mode|Boolean|
+|production_mode|Boolean|
+|active_status|String|
+|confirmation_code|String|
+|confirmed|String|
 
 ## Methods
 

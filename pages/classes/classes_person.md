@@ -23,27 +23,27 @@ The person class covers all the properties of a physical person. [User](/classes
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:out|:contact_info||[ContactInfo](/classes_contact_info.html)|
+|has_one|out|contact_info||[ContactInfo](/classes_contact_info.html)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:first_name|String|
-|:last_name|String|
-|:nick_name|String|
-|:prefix|String|
-|:suffix|String|
-|:gender|String|
-|:race|String|
-|:religion|String|
-|:martial_status|String|
-|:date_of_birth|Date|
-|:height|String|
-|:weight|String|
-|:eye_colour|String|
-|:hair_colour|String|
-|:description|String|
+|first_name|String|
+|last_name|String|
+|nick_name|String|
+|prefix|String|
+|suffix|String|
+|gender|String|
+|race|String|
+|religion|String|
+|martial_status|String|
+|date_of_birth|Date|
+|height|String|
+|weight|String|
+|eye_colour|String|
+|hair_colour|String|
+|description|String|
 
 ## Methods
 

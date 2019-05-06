@@ -29,20 +29,20 @@ The VehicleOperator class also makes use of the VehicleOperators Controller, whi
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_many|:out|:services||[Service](/classes_service)|
-|has_many|:out|:transactions||[Transaction](/classes_transaction)|
-|has_many|:out|:vehicles|[HasVehicle](/classes_has_vehicle)|[Vehicle](/classes_vehicle)|
-|has_many|:out|:comments||[Comment](/classes_comment)|
-|has_one|:out|:organization||[Organization](/classes_organization)|
-|has_one|:out|:insurance_company|[HasInsuranceCompany](/classes_has_insurance_company)|[InsuranceCompany](/classes_insurance_company)|
-|has_one|:out|:location||[Location](/classes_location)|
-|has_one|:out|:default_dropoff_address||[Address](/classes_address)|
+|has_many|out|services||[Service](/classes_service)|
+|has_many|out|transactions||[Transaction](/classes_transaction)|
+|has_many|out|vehicles|[HasVehicle](/classes_has_vehicle)|[Vehicle](/classes_vehicle)|
+|has_many|out|comments||[Comment](/classes_comment)|
+|has_one|out|organization||[Organization](/classes_organization)|
+|has_one|out|insurance_company|[HasInsuranceCompany](/classes_has_insurance_company)|[InsuranceCompany](/classes_insurance_company)|
+|has_one|out|location||[Location](/classes_location)|
+|has_one|out|default_dropoff_address||[Address](/classes_address)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:organization_confirmed|Boolean|
+|organization_confirmed|Boolean|
 
 ## Methods
 

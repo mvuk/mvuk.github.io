@@ -27,14 +27,14 @@ Right now, class methods are used to return lists of target pages where incomple
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:out|:role||[Role](/classes_role.html)|
+|has_one|out|role||[Role](/classes_role.html)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:description|String|
-|:complete|Boolean|
+|description|String|
+|complete|Boolean|
 
 ## Methods
 

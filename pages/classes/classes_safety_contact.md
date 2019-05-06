@@ -29,7 +29,7 @@ The safety contact is not a user, and exists just as a person with contact infor
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:in|:customer||[Customer](/classes_customer)|
+|has_one|in|customer||[Customer](/classes_customer)|
 
 ## Properties
 

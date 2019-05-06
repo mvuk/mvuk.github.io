@@ -25,9 +25,9 @@ Requires `twilio-ruby` gem.
 
 |Property|Type|
 |+-+|
-|:account_sid|String|
-|:auth_token|String|
-|:sent_from_number|String|
+|account_sid|String|
+|auth_token|String|
+|sent_from_number|String|
 
 ## Methods
 

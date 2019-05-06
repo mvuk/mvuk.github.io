@@ -23,14 +23,14 @@ The location object is a latitude/longitude pair. While a service is running, th
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:out|:address||[Address](/classes_address.html)|
+|has_one|out|address||[Address](/classes_address.html)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:longitude|Float|
-|:latitude|Float|
+|longitude|Float|
+|latitude|Float|
 
 ## Methods
 

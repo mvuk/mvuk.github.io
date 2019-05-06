@@ -24,12 +24,12 @@ The ContactInfo class stores all of the contact information. It bridges actors a
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:in|:actor||[Actor](/classes_actor.html)|
-|has_one|:in|:organization||[Organization](/classes_organization.html)|
-|has_many|:out|:addresses||[Address](/classes_address.html)|
-|has_many|:out|:phones||[Phone](/classes_phone.html)|
-|has_many|:out|:emails||[Email](/classes_email.html)|
-|has_many|:out|:websites||[Website](/classes_website.html)|
+|has_one|in|actor||[Actor](/classes_actor.html)|
+|has_one|in|organization||[Organization](/classes_organization.html)|
+|has_many|out|addresses||[Address](/classes_address.html)|
+|has_many|out|phones||[Phone](/classes_phone.html)|
+|has_many|out|emails||[Email](/classes_email.html)|
+|has_many|out|websites||[Website](/classes_website.html)|
 
 ## Properties
 

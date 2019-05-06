@@ -28,16 +28,16 @@ At this time, there is the limitation that only customers are rating tow truck d
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:out|:customer||[Customer](/classes_customer.html)|
-|has_one|:out|:tow_truck_driver||[TowTruckDriver](/classes_tow_truck_driver.html)|
-|has_one|:in|:transaction||[Transaction](/classes_transaction.html)|
+|has_one|out|customer||[Customer](/classes_customer.html)|
+|has_one|out|tow_truck_driver||[TowTruckDriver](/classes_tow_truck_driver.html)|
+|has_one|in|transaction||[Transaction](/classes_transaction.html)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:rating|Integer|
-|:text|String|
+|rating|Integer|
+|text|String|
 
 ## Methods
 

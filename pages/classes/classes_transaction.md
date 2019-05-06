@@ -36,20 +36,20 @@ __2__ - The customer has confirmed the details that have been submitted by the t
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:in|:customer||[Customer](/classes_customer.html)|
-|has_one|:in|:tow_truck_driver||[TowTruckDriver](/classes_tow_truck_driver.html)|
-|has_one|:in|:service||[Service](/classes_service.html)|
-|has_one|:out|:comment||[Comment](/classes_comment.html)|
+|has_one|in|customer||[Customer](/classes_customer.html)|
+|has_one|in|tow_truck_driver||[TowTruckDriver](/classes_tow_truck_driver.html)|
+|has_one|in|service||[Service](/classes_service.html)|
+|has_one|out|comment||[Comment](/classes_comment.html)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:number|Integer|
-|:description|String|
-|:payment_type|String|
-|:amount|Float|
-|:status|Integer|
+|number|Integer|
+|description|String|
+|payment_type|String|
+|amount|Float|
+|status|Integer|
 
 ## Methods
 

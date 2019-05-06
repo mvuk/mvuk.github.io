@@ -29,14 +29,14 @@ We may explore other solutions, such as free-software analytics tools that can t
 
 |Property|Type|
 |+-+|
-|:state|String|
-|:ip_address|String|
-|:country|String|
-|:browser|String|
-|:id|String|
-|:cookie|String|
-|:url|String|
-|:total_time|String|
+|state|String|
+|ip_address|String|
+|country|String|
+|browser|String|
+|id|String|
+|cookie|String|
+|url|String|
+|total_time|String|
 
 ## Methods
 

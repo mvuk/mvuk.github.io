@@ -26,25 +26,25 @@ The vehicle class is used for both tow trucks and customer vehicles. Vehicles ar
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:in|:owner|[HasVehicle](/classes_has_vehicle)|[VehicleOperator](/classes_vehicle_operator)|
-|has_one|:out|:service||[Service](/classes_service)|
-|has_one|:in|:vehicle_photo||[Document](/classes_document)|
-|has_one|:in|:license_plate_photo||[Document](/classes_document)|
+|has_one|in|owner|[HasVehicle](/classes_has_vehicle)|[VehicleOperator](/classes_vehicle_operator)|
+|has_one|out|service||[Service](/classes_service)|
+|has_one|in|vehicle_photo||[Document](/classes_document)|
+|has_one|in|license_plate_photo||[Document](/classes_document)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:description|String|
-|:serial_number|String|
-|:type|String|
-|:make|String|
-|:model|String|
-|:license_plate|String|
-|:color|String|
-|:year|Integer|
-|:fuel_type|String|
-|:vehicle_type|String|
+|description|String|
+|serial_number|String|
+|type|String|
+|make|String|
+|model|String|
+|license_plate|String|
+|color|String|
+|year|Integer|
+|fuel_type|String|
+|vehicle_type|String|
 
 ## Methods
 

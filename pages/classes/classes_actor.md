@@ -28,7 +28,7 @@ The actor class inherits from both person and user. While Person addresses the p
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_many|:out|:roles|[HasRole](/classes_has_role)|[Role](/classes_role)|
+|has_many|out|roles|[HasRole](/classes_has_role)|[Role](/classes_role)|
 
 ## Properties
 

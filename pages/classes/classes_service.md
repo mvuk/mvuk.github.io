@@ -25,35 +25,35 @@ To initiate, the customer creates a service and selects which properties he wish
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:in|:customer_vehicle||[Vehicle](/classes_vehicle)|
-|has_one|:in|:tow_truck||[Vehicle](/classes_vehicle)|
-|has_one|:in|:customer||[Customer](/classes_customer)|
-|has_one|:in|:tow_truck_driver||[TowTruckDriver](/classes_tow_truck_driver)|
-|has_one|:out|:initial_tow_truck_location||[Location](/classes_location)|
-|has_one|:out|:pickup_location||[Location](/classes_location)|
-|has_one|:out|:dropoff_address||[Address](/classes_address)|
-|has_one|:out|:transaction||[Transaction](/classes_transaction)|
-|has_many|:in|:trip_locations||[Location](/classes_location)|
+|has_one|in|customer_vehicle||[Vehicle](/classes_vehicle)|
+|has_one|in|tow_truck||[Vehicle](/classes_vehicle)|
+|has_one|in|customer||[Customer](/classes_customer)|
+|has_one|in|tow_truck_driver||[TowTruckDriver](/classes_tow_truck_driver)|
+|has_one|out|initial_tow_truck_location||[Location](/classes_location)|
+|has_one|out|pickup_location||[Location](/classes_location)|
+|has_one|out|dropoff_address||[Address](/classes_address)|
+|has_one|out|transaction||[Transaction](/classes_transaction)|
+|has_many|in|trip_locations||[Location](/classes_location)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:number|Integer|
-|:start_date|Date|
-|:end_date|Date|
-|:status|Integer|
-|:customer_confirm|Boolean|
-|:vendor_confirm|Boolean|
-|:accident|Boolean|
-|:towing_service|Boolean|
-|:flat_tire|Boolean|
-|:locked_out|Boolean|
-|:battery_dead|Boolean|
-|:out_of_gas|Boolean|
-|:message|String|
-|:dropoff_trip|Boolean|
-|:cancelled|Boolean|
+|number|Integer|
+|start_date|Date|
+|end_date|Date|
+|status|Integer|
+|customer_confirm|Boolean|
+|vendor_confirm|Boolean|
+|accident|Boolean|
+|towing_service|Boolean|
+|flat_tire|Boolean|
+|locked_out|Boolean|
+|battery_dead|Boolean|
+|out_of_gas|Boolean|
+|message|String|
+|dropoff_trip|Boolean|
+|cancelled|Boolean|
 
 ## Methods
 

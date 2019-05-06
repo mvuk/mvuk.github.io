@@ -29,17 +29,17 @@ Tow Truck Drivers belong to their companies or organizations, called [TowTruckFl
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_many|:out|:products||[Product](/classes_product)|
-|has_one|:out|:profile_picture||[Document](/classes_document)|
-|has_one|:out|:drivers_license||[Document](/classes_document)|
-|has_one|:out|:tow_truck_license||[Document](/classes_document)|
+|has_many|out|products||[Product](/classes_product)|
+|has_one|out|profile_picture||[Document](/classes_document)|
+|has_one|out|drivers_license||[Document](/classes_document)|
+|has_one|out|tow_truck_license||[Document](/classes_document)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:price_per_unit_distance|String|
-|:unit_distance|String|
+|price_per_unit_distance|String|
+|unit_distance|String|
 
 ## Methods
 

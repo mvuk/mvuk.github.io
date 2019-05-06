@@ -29,13 +29,13 @@ Customers can be independent of any organization, or belong to an [VehicleFleet]
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:out|:safety_contact||[SafetyContact](/classes_safety_contact))|
+|has_one|out|safety_contact||[SafetyContact](/classes_safety_contact))|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:organization_confirmed|String|
+|organization_confirmed|String|
 
 ## Methods
 

@@ -27,15 +27,15 @@ During onboarding, a tow truck driver is given a list of the products that are u
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:in|:tow_truck_driver||[TowTruckDriver](/classes_tow_truck_driver.html)|
+|has_one|in|tow_truck_driver||[TowTruckDriver](/classes_tow_truck_driver.html)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:name|String|
-|:description|String|
-|:price|String|
+|name|String|
+|description|String|
+|price|String|
 
 ## Methods
 

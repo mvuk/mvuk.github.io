@@ -24,13 +24,13 @@ Notes can be left about users. A user can leave a note about another user.
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:in|:user||[User](/classes_user)|
+|has_one|in|user||[User](/classes_user)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:text|String|
+|text|String|
 
 ## Methods
 

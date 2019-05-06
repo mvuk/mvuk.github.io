@@ -23,17 +23,17 @@ The purpose of the websites class is to contain information about website URLs t
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:in|:contact_info||[ContactInfo](/classes_contact_info.html)|
+|has_one|in|contact_info||[ContactInfo](/classes_contact_info.html)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:sort_order|String|
-|:description|String|
-|:url|String|
-|:https|Boolean|
-|:www|Boolean|
+|sort_order|String|
+|description|String|
+|url|String|
+|https|Boolean|
+|www|Boolean|
 
 ## Methods
 

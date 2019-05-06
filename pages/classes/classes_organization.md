@@ -27,22 +27,22 @@ The organization class is the top level class for different types of organizatio
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_many|:in|:managers||[Manager](/classes_manager)|
-|has_many|:out|:members||[Role](/classes_role)|
-|has_many|:out|:services||[Service](/classes_service)|
-|has_many|:out|:transactions||[Transaction](/classes_transaction)|
-|has_many|:out|:default_dropoff_addresses||[Address](/classes_address)|
-|has_one|:out|:contact_info||[ContactInfo](/classes_contact_info)|
+|has_many|in|managers||[Manager](/classes_manager)|
+|has_many|out|members||[Role](/classes_role)|
+|has_many|out|services||[Service](/classes_service)|
+|has_many|out|transactions||[Transaction](/classes_transaction)|
+|has_many|out|default_dropoff_addresses||[Address](/classes_address)|
+|has_one|out|contact_info||[ContactInfo](/classes_contact_info)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:name|String|
-|:acronym|String|
-|:logo|String|
-|:branch|String|
-|:employee_number_range|String|
+|name|String|
+|acronym|String|
+|logo|String|
+|branch|String|
+|employee_number_range|String|
 
 ## Methods
 

@@ -29,17 +29,17 @@ This class makes use of the Paperclip gem which works with file uploads. File at
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:in|:document_owner||[Vehicle](/classes_vehicle.html),[Customer](/classes_customer.html),[TowTruckDriver](/classes_tow_truck_driver)|
+|has_one|in|document_owner||[Vehicle](/classes_vehicle.html),[Customer](/classes_customer.html),[TowTruckDriver](/classes_tow_truck_driver)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:name|String|
-|:description|String|
-|:document_type|String|
-|:verification_status|Boolean|
-|:attachment|["image/jpg", "image/jpeg", "image/png", "image/gif"]|
+|name|String|
+|description|String|
+|document_type|String|
+|verification_status|Boolean|
+|attachment|["image/jpg", "image/jpeg", "image/png", "image/gif"]|
 
 ## Methods
 

@@ -24,26 +24,26 @@ Address stores data about physical addresses.
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:in|:contact_info||[ContactInfo](/classes_contact_info.html)|
-|has_one|:out|:location||[Location](/classes_location.html)|
-|has_many|:out|:service||[Service](/classes_service.html)|
+|has_one|in|contact_info||[ContactInfo](/classes_contact_info.html)|
+|has_one|out|location||[Location](/classes_location.html)|
+|has_many|out|service||[Service](/classes_service.html)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:sort_order|String|
-|:description|String|
-|:street|String|
-|:city|String|
-|:nick_name|String|
-|:state_prov|String|
-|:country|String|
-|:postal_code|String|
-|:precinct|String|
-|:ward|String|
-|:region|String|
-|:active|Boolean|
+|sort_order|String|
+|description|String|
+|street|String|
+|city|String|
+|nick_name|String|
+|state_prov|String|
+|country|String|
+|postal_code|String|
+|precinct|String|
+|ward|String|
+|region|String|
+|active|Boolean|
 
 ## Methods
 

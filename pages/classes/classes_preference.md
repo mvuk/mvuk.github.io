@@ -26,19 +26,19 @@ The preference contains all of the settings that a user can adjust that will cha
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:in|:user||[User](/classes_user.html)|
-|has_one|:out|:safety_contact||[SafetyContact](/classes_safety_contact.html)|
+|has_one|in|user||[User](/classes_user.html)|
+|has_one|out|safety_contact||[SafetyContact](/classes_safety_contact.html)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:language|String|
-|:country|String|
-|:currency|String|
-|:flat_rate|Integer|
-|:refresh_rate|String|
-|:radius|String|
+|language|String|
+|country|String|
+|currency|String|
+|flat_rate|Integer|
+|refresh_rate|String|
+|radius|String|
 
 \#TODO, should radius be moved from preference to being a property of [VehicleOperator](/classes_vehicle_operator.html)?
 

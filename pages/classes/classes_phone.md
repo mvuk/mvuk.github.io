@@ -25,18 +25,18 @@ Support for phone numbers that do not fall within the scope of North America wil
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:in|:contact_info||[ContactInfo](/classes_contact_info.html)|
+|has_one|in|contact_info||[ContactInfo](/classes_contact_info.html)|
 
 ## Properties
 
 |Property|Type|
 |+-+|
-|:sort_order|String|
-|:description|String|
-|:calling_code|String|
-|:area_code|String|
-|:number|String|
-|:extension|String|
+|sort_order|String|
+|description|String|
+|calling_code|String|
+|area_code|String|
+|number|String|
+|extension|String|
 
 ## Methods
 
