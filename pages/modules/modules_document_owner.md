@@ -24,7 +24,7 @@ __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 Boolean
 
@@ -38,7 +38,7 @@ __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 Boolean
 
@@ -52,7 +52,7 @@ __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 Boolean
 

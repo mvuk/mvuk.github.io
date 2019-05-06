@@ -42,15 +42,16 @@ Support for phone numbers that do not fall within the scope of North America wil
 
 ### formatted_number
 
+__Description__
+
+
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 String, phone number in format of (333) 444-5555
-
-__Description__
 
 
 

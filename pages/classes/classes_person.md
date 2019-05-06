@@ -49,16 +49,16 @@ The person class covers all the properties of a physical person. [User](/classes
 
 ### full_name_gender_dob
 
+__Description__
+
+Generates a string based on full name, gender, date of birth
+
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 String
-
-__Description__
-
-Generates a string based on full name, gender, date of birth
 
 ## Class Methods

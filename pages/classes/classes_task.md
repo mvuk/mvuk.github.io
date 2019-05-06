@@ -42,28 +42,28 @@ Right now, class methods are used to return lists of target pages where incomple
 
 ### verify_tow_truck_driver_documents
 
-__Parameters__
-
-None
-
-__Return value__
-
-Array of IDs belonging to tow truck drivers who have unverified documents
-
 __Description__
 
 This method looks up all tow truck drivers who have any documents that are unverified. It collects all of their unique identifiers and returns them as an array. The administrator receives formatted links in his dashboard that go to the specific tow truck driver profile page where he will verify the documents individually.
 
+__Parameters__
+
+None
+
+__Return Type__
+
+Array of IDs belonging to tow truck drivers who have unverified documents
+
 ### incomplete_tasks
+
+__Description__
+
+*(Not yet implemented)*
 
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 Returns all task objects that have not been marked as complete.
-
-__Description__
-
-*(Not yet implemented)*

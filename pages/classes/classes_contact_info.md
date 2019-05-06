@@ -37,59 +37,58 @@ The ContactInfo class stores all of the contact information. It bridges actors a
 
 ### email_address
 
-__Parameters__
-
-None
-
-__Return value__
-
-String or Array
-
 __Description__
 
 If there is one email address, it will return the formatted email address as a string. If there are multiple email addresses, it will return an array of properly formatted email addresses.
 
-### phone_number
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 String or Array
+
+### phone_number
 
 __Description__
 
 If there is one phone number, it will return the formatted phone number as a string. If there are multiple phone numbers, it will return an array of properly formatted phone numbers.
 
-### address
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 String or Array
+
+### address
 
 __Description__
 
 If there is one address, it will return the formatted physical address as a string. If there are multiple addresses, it will return an array of properly formatted addresses.
 
-### website
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 String or Array
+
+### website
 
 __Description__
 
 If there is one website, it will return the formatted website URL as a string. If there are multiple websites, it will return an array of properly formatted website URLs.
 
+__Parameters__
+
+None
+
+__Return Type__
+
+String or Array
 
 ## Class Methods

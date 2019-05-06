@@ -25,16 +25,6 @@ The analytic class contains all of the methods for returning data in a readable,
 
 ### group(class_name,property,ignore_false = true)
 
-__Parameters__
-
-class_name - String
-property - String
-ignore_false - Boolean
-
-__Return value__
-
-Nested array of values in pattern [["value", 0],["value",1]]
-
 __Description__
 
 The group method collects the numerical count of each property value in a specified property of a specified class.
@@ -45,17 +35,17 @@ For example `Analytic.group("Actor","role_class_name")` could return the followi
 
 The 'ignore_false' value determines if values of 'property' that are set to nil or false should be counted or omitted when returning the array.
 
-### group_by_time_period(class_name,property,time_period)
-
 __Parameters__
 
 class_name - String
 property - String
-time_period - Boolean
+ignore_false - Boolean
 
-__Return value__
+__Return Type__
 
 Nested array of values in pattern [["value", 0],["value",1]]
+
+### group_by_time_period(class_name,property,time_period)
 
 __Description__
 
@@ -69,26 +59,102 @@ For example, the following haml code would create a line chart where the count o
 
 A sample output of this value could be `[["02 May 2019", 10],["03 May 2019", 4]]`.
 
+__Parameters__
+
+class_name - String
+property - String
+time_period - Boolean
+
+__Return Type__
+
+Nested array of values in pattern [["value", 0],["value",1]]
+
 ### total_services
+
+__Description__
+
+__Parameters__
+
+__Return Type__
 
 ### active_services
 
+__Description__
+
+__Parameters__
+
+__Return Type__
+
 ### complete_services
+
+__Description__
+
+__Parameters__
+
+__Return Type__
 
 ### cancelled_services
 
+__Description__
+
+__Parameters__
+
+__Return Type__
+
 ### average_service_duration
+
+__Description__
+
+__Parameters__
+
+__Return Type__
 
 ### service_state_during_cancellation
 
+__Description__
+
+__Parameters__
+
+__Return Type__
+
 ### service_ordered_products
+
+__Description__
+
+__Parameters__
+
+__Return Type__
 
 ### average_transaction_amount
 
+__Description__
+
+__Parameters__
+
+__Return Type__
+
 ### transaction_payment_type
+
+__Description__
+
+__Parameters__
+
+__Return Type__
 
 ### transactions_with_rating
 
+__Description__
+
+__Parameters__
+
+__Return Type__
+
 ### transactions_average_rating
+
+__Description__
+
+__Parameters__
+
+__Return Type__
 
 ## Class Methods

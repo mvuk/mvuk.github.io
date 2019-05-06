@@ -32,7 +32,7 @@ __Parameters__
 
 * id (the ID property)
 
-__Return value__
+__Return Type__
 
 Object
 

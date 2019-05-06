@@ -48,296 +48,296 @@ The VehicleOperator class also makes use of the VehicleOperators Controller, whi
 
 ### confirm_organization
 
-__Parameters__
-
-None
-
-__Return value__
-
-None
-
 __Description__
 
 Updates the value of `organization_confirmed` to true.
 
-### belongs_to_organization?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Boolean
+None
+
+### belongs_to_organization?
 
 __Description__
 
 Evaluates if the object belongs to an organization.
 
-### insurance_company_rel
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Relationship
+Boolean
+
+### insurance_company_rel
 
 __Description__
 
 Returns the [HasInsuranceCompany](/classes_has_insurance_company) relationship, so that its properties and methods are accessible.
 
-### already_requested?(role_id)
-
 __Parameters__
 
-role_id - String
+None
 
-__Return value__
+__Return Type__
 
-Boolean
+Relationship
+
+### already_requested?(role_id)
 
 __Description__
 
 Evaluates if the vehicle operator already has a pending request with the role that is passed through.
 
-### set_default_dropoff_address(address)
-
 __Parameters__
 
-address - Address object
+role_id - String
 
-__Return value__
+__Return Type__
 
-None
+Boolean
+
+### set_default_dropoff_address(address)
 
 __Description__
 
 Associates the passed through address object into being the default dropoff address for the vehicle operator.
 
-### primary_vehicle
-
 __Parameters__
+
+address - Address object
+
+__Return Type__
 
 None
 
-__Return value__
-
-Vehicle object
+### primary_vehicle
 
 __Description__
 
 Returns the default active vehicle of the vehicle operator. If they only have one vehicle it is returned, if they have many the primary vehicle is returned.
 
-### total_services
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Integer
+Vehicle object
+
+### total_services
 
 __Description__
 
 Return the total number of services the vehicle operator has taken part of.
 
-### total_payment_amount
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Float
+Integer
+
+### total_payment_amount
 
 __Description__
 
 Return the total number amount of payments spent or received by the vehicle operator.
 
-### total_complete_services
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Integer
+Float
+
+### total_complete_services
 
 __Description__
 
 Return the total number of completed services the vehicle operator has taken part of.
 
-### complete_services
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Array of service objects
+Integer
+
+### complete_services
 
 __Description__
 
 Return an array of each service that the vehicle operator has completed.
 
-### complete_services?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Boolean
+Array of service objects
+
+### complete_services?
 
 __Description__
 
 Determine if the vehicle operator has performed any services to completion.
 
-### active_services
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Array of service objects
+Boolean
+
+### active_services
 
 __Description__
 
 Return an array of each service that the vehicle operator is actively engaged in.
 
-### active_services?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Boolean
+Array of service objects
+
+### active_services?
 
 __Description__
 
 Evaluates if the vehicle operator is engaged in any active services.
 
-### complete_services
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Array of service objects
+Boolean
+
+### complete_services
 
 __Description__
 
 Return an array of each service that the vehicle operator has completed.
 
-### service_requests
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 Array of service objects
+
+### service_requests
 
 __Description__
 
 Return an array of each service that the vehicle operator is involved in a request for.
 
-### service_requests?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Boolean
+Array of service objects
+
+### service_requests?
 
 __Description__
 
 Evaluates if any services are in the request stage.
 
-### set_active
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-None
+Boolean
+
+### set_active
 
 __Description__
 
 Set the `active_status` of the role to be enabled
 
-### set_inactive
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 None
+
+### set_inactive
 
 __Description__
 
 Set the `active_status` of the role to be disabled
 
-### has_comments?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Boolean
+None
+
+### has_comments?
 
 __Description__
 
 Evaluates if the vehicle operator has any comments written about them.
 
-### determine_distance(vehicle_operator)
-
 __Parameters__
 
-vehicle_operator - VehicleOperator object
+None
 
-__Return value__
+__Return Type__
 
-Float
+Boolean
+
+### determine_distance(vehicle_operator)
 
 __Description__
 
 Uses the location objects associated with both of the 'self' and the new 'vehicle_operator' value that is passed through, and returns a value of a float that represents the number of kilometers between each party.
 
+__Parameters__
+
+vehicle_operator - VehicleOperator object
+
+__Return Type__
+
+Float
+
 ### log_location_active_service(location)
+
+__Description__
+
+When a vehicle is polling for location during a time that they are part of an active service, this method will then log the location object to the service.
 
 __Parameters__
 
 location - Location object
 
-__Return value__
+__Return Type__
 
 Location
-
-__Description__
-
-When a vehicle is polling for location during a time that they are part of an active service, this method will then log the location object to the service.
 
 ## Class Methods

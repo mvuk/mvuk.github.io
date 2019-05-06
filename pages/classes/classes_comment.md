@@ -43,32 +43,32 @@ At this time, there is the limitation that only customers are rating tow truck d
 
 ### rating_formatted
 
-__Parameters__
-
-None
-
-__Return value__
-
-String
-
 __Description__
 
 Returns the rating formatted in a string out of 5. For example, the method would return '4/5' if the rating value was '4'
 
-### associate_to_transaction(transaction_id)
-
 __Parameters__
 
-transaction_id - String
+None
 
-__Return value__
+__Return Type__
 
-Transaction object
+String
+
+### associate_to_transaction(transaction_id)
 
 __Description__
 
 Associates the comment to a particular transaction, and also adds the associations for the customer and tow truck driver.
 
 A limitation is that it does not distinguish the author at this time, and transactions are set to just have a single comment written about the tow truck driver.
+
+__Parameters__
+
+transaction_id - String
+
+__Return Type__
+
+Transaction object
 
 ## Class Methods

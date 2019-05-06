@@ -55,72 +55,72 @@ __2__ - The customer has confirmed the details that have been submitted by the t
 
 ### submit_details
 
-__Parameters__
-
-None
-
-__Return value__
-
-None
-
 __Description__
 
 This method is called when a tow truck driver enters in the details of the service for the transaction, where it will update the status code to 1.
 
-### confirm
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 None
+
+### confirm
 
 __Description__
 
 This method is called when the customer confirms the details that are input by the tow truck driver. It updates the transaction status to 2 and the [service](/classes_service.html) status to 6.
 
-### make_editable
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 None
+
+### make_editable
 
 __Description__
 
 If a customer rejects the transaction details, this method returns the status code to 0, so that the details will become editable again.
 
-### has_review?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Boolean
+None
+
+### has_review?
 
 __Description__
 
 Evaluates if a review has been written yet for the transaction.
 
+__Parameters__
+
+None
+
+__Return Type__
+
+Boolean
+
 ## Class Methods
 
 ### generate_transaction_number
+
+__Description__
+
+Returns a number to be used for a new transaction. The system numerically counts up from 0. For example, transaction #1, #2, #3 ... and so on.
 
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 Integer
-
-__Description__
-
-Returns a number to be used for a new transaction. The system numerically counts up from 0. For example, transaction #1, #2, #3 ... and so on.

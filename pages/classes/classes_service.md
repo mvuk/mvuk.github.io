@@ -59,279 +59,271 @@ To initiate, the customer creates a service and selects which properties he wish
 
 ### cancel
 
-__Parameters__
-
-None
-
-__Return value__
-
-None
-
 __Description__
 
 The service `cancelled` property is set to true.
 
-### cancelled?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Boolean
+None
+
+### cancelled?
 
 __Description__
 
 Evaluate if the service has been cancelled.
 
-### dropoff_trip?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 Boolean
+
+### dropoff_trip?
 
 __Description__
 
 Evaluates if the service will include a towing trip that a vehicle will be dropped off to true. If it is just a roadside service without a towing this will evaluate to false.
 
-### service_type
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-String
+Boolean
+
+### service_type
 
 __Description__
 
 Returns a string articulating which service type is set.
 
-### vendor_accept
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-None
+String
+
+### vendor_accept
 
 __Description__
 
 The service status is updated that the vendor has accepted the request.
 
-### confirm_dropoff
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 None
+
+### confirm_dropoff
 
 __Description__
 
 The service status is updated that the dropoff location has been confirmed.
 
-### service_set_dropoff(address)
-
 __Parameters__
 
-address - Address object
+None
 
-__Return value__
+__Return Type__
 
 None
+
+### service_set_dropoff(address)
 
 __Description__
 
 The dropoff address for the service is assigned to be the address object that is passed through as a parameter.
 
-### complete_service
-
 __Parameters__
 
+address - Address object
+
+__Return Type__
+
 None
 
-__Return value__
-
-None
+### complete_service
 
 __Description__
 
 The service status is updated and the trip's end-time is set.
 
-### set_dropoff_trip(value)
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 None
+
+### set_dropoff_trip(value)
 
 __Description__
 
 Determines the value as to if the service will include a towing to a dropoff location, or if it will not. If it will include a dropoff trip then the service proceeds, otherwise a transaction is initialized and the service is complete.
 
-### initialize_transaction
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Transaction
+None
+
+### initialize_transaction
 
 __Description__
 
 Creates a new [Transaction](/classes_transaction) object for the service and associates it to the service.
 
-### log_location(latitude, longitude)
-
 __Parameters__
 
-location - Location object
-
-__Return value__
-
 None
+
+__Return Type__
+
+Transaction
+
+### log_location(latitude, longitude)
 
 __Description__
 
 Accepts a latitude and longitude value for a new location. Evaluates if this latitude and longitude are new for this trip, otherwise it does not log duplicate locations.
 
-### customer_status_message(customer_name, vendor_name)
-
 __Parameters__
+
+location - Location object
+
+__Return Type__
 
 None
 
-__Return value__
-
-String
+### customer_status_message(customer_name, vendor_name)
 
 __Description__
 
 Returns a the status message from the `CUSTOMER_STATUS_MESSAGES` class constant with the names of both the customer and tow truck driver formatted into it. For example: "Randy is on his way to come pick you up".
 
-### tow_truck_driver_status_message(customer_name, vendor_name)
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 String
+
+### tow_truck_driver_status_message(customer_name, vendor_name)
 
 __Description__
 
 Returns a the status message from the `VENDOR_STATUS_MESSAGES` class constant with the names of both the customer and tow truck driver formatted into it. For example: "Drop off Randy's vehicle".
 
-### status_message
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 String
+
+### status_message
 
 __Description__
 
 Returns the appropriate status message from the `STATUS_MESSAGES` class constant.
 
-### service_options
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Array
+String
+
+### service_options
 
 __Description__
 
 Returns an array of all the options of requested products for the service.
 
-### service_state
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-String
+Array
+
+### service_state
 
 __Description__
 
 Returns in a string format the state of the service, options are 'Cancelled', 'Active', 'Requested', 'Complete'
 
-### status_step_forward
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-None
+String
+
+### status_step_forward
 
 __Description__
 
 Increases the value of the `status` property by 1, to set the trip forwards one step.
 
-### status_step_backward
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 None
+
+### status_step_backward
 
 __Description__
 
 Decreases the value of the `status` property by 1, to set the trip backward one step.
 
-### message?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Boolean
+None
+
+### message?
 
 __Description__
 
 Evaluates if the service trip was ordered with a message included with it.
 
-### tow_truck_average_speeds
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Array
+Boolean
+
+### tow_truck_average_speeds
 
 __Description__
 
@@ -339,13 +331,21 @@ Returns a nested array with the values of how fast a tow truck driver was estima
 
 For example, the array would be returned in the format of [[time, speed],[time, speed],[time, speed]].
 
+__Parameters__
+
+None
+
+__Return Type__
+
+Array
+
 ### start_time
 
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 DateTime
 
@@ -355,161 +355,165 @@ Returns the time that the service started.
 
 ### end_time
 
-__Parameters__
-
-None
-
-__Return value__
-
-DateTime
-
 __Description__
 
 Returns the time that the service has completed.
 
-### start_end_times_formatted
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-String
+DateTime
+
+### start_end_times_formatted
 
 __Description__
 
 Returns a formatted string of the start and end times of the service.
 
-### time_duration
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-DateTime
+String
+
+### time_duration
 
 __Description__
 
 Returns the time duration of the service.
 
-### time_duration_formatted
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-String
+DateTime
+
+### time_duration_formatted
 
 __Description__
 
 Return a string with the full formatted duration of the service from start to completion. If the service is not yet complete, then it defaults to the current time as the end time.
 
-### complete?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Boolean
+String
+
+### complete?
 
 __Description__
 
 Evaluate if a service is complete.
 
-### active?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 Boolean
+
+### active?
 
 __Description__
 
 Evaluate if a service is active.
 
-### request?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 Boolean
+
+### request?
 
 __Description__
 
 Evaluate if the service is currently in that state where it is only a request, and not yet been accepted and become active.
 
-## Class Methods
-
-### active_services
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Array
+Boolean
+
+## Class Methods
+
+### active_services
 
 __Description__
 
 Return an array of all service objects that are currently active.
 
-### active_services?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Boolean
+Array
+
+### active_services?
 
 __Description__
 
 Evaluate if any services are currently active.
 
-### complete_services
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Array
+Boolean
+
+### complete_services
 
 __Description__
 
 Return an array of all complete services.
 
-### complete_services?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Boolean
+Array
+
+### complete_services?
 
 __Description__
 
 Evaluate if complete services exist.
 
+__Parameters__
+
+None
+
+__Return Type__
+
+Boolean
+
 ### setup_new_service(service_params,tow_truck_driver_id,customer_id,customer_vehicle_id)
+
+__Description__
+
+Setup a new service and set its properties from paramters and connect the associations.
 
 __Parameters__
 
@@ -518,10 +522,6 @@ tow_truck_driver_id - String
 customer_id - String
 customer_vehicle_id - String
 
-__Return value__
+__Return Type__
 
 Service object
-
-__Description__
-
-Setup a new service and set its properties from paramters and connect the associations.

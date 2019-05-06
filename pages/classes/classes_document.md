@@ -38,93 +38,93 @@ This class makes use of the Paperclip gem which works with file uploads. File at
 |:name|String|
 |:description|String|
 |:document_type|String|
-|:verified|Boolean|
+|:verification_status|Boolean|
 |:attachment|["image/jpg", "image/jpeg", "image/png", "image/gif"]|
 
 ## Methods
 
 ### verify
 
-__Parameters__
-
-None
-
-__Return value__
-
-None
-
 __Description__
 
 Sets document verified property to true
 
-### unverify
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 None
+
+### unverify
 
 __Description__
 
 Sets document verified property to false
 
-### verified?
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Boolean
+None
+
+### verified?
 
 __Description__
 
 Determine whether the document is verified, return true/false.
 
-### document_type_formatted
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-String
+Boolean
+
+### document_type_formatted
 
 __Description__
 
 Returns the document type in readable format, such as "Profile Picture" or "Driver's License"
 
-### url_path
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 String
+
+### url_path
 
 __Description__
 
 Returns a url path to a direct link to that document, for example, "/documents/:id"
 
+__Parameters__
+
+None
+
+__Return Type__
+
+String
+
 ### attachment_path
+
+__Description__
+
+Returns a url path to a direct link to that document's attachment.
 
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 String
-
-__Description__
-
-Returns a url path to a direct link to that document's attachment.
 
 ## Class Methods

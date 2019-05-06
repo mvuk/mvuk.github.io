@@ -49,31 +49,31 @@ Address stores data about physical addresses.
 
 ### full_address
 
-__Parameters__
-
-None
-
-__Return value__
-
-String
-
 __Description__
 
 Returns the full formatted address.
 
+__Parameters__
+
+None
+
+__Return Type__
+
+String
+
 ### set_location(latitude, longitude)
+
+__Description__
+
+A latitude and longitude set of parameters are passed through the method. A new [Location](/classes_location.html) object is created, and associated to the address.
 
 __Parameters__
 
 * latitude - string or float
 * longitude - string or float
 
-__Return value__
+__Return Type__
 
 Location object
-
-__Description__
-
-A latitude and longitude set of parameters are passed through the method. A new [Location](/classes_location.html) object is created, and associated to the address.
 
 ## Class Methods

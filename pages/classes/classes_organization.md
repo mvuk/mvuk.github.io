@@ -48,44 +48,44 @@ The organization class is the top level class for different types of organizatio
 
 ### manager_count
 
-__Parameters__
-
-None
-
-__Return value__
-
-Integer
-
 __Description__
 
 Numeric value of how many managers are set for the organization.
 
-### active_services
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-Array of services
+Integer
+
+### active_services
 
 __Description__
 
 This method finds all services that members of the organization are involved in that are currently in an active state, and returns them as an array.
 
+__Parameters__
+
+None
+
+__Return Type__
+
+Array of services
+
 ### complete_services
+
+__Description__
+
+This method finds all services that members of the organization are involved in that are complete, and returns them as an array.
 
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 Array of services
-
-__Description__
-
-This method finds all services that members of the organization are involved in that are complete, and returns them as an array.
 
 ## Class Methods

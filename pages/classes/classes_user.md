@@ -52,200 +52,199 @@ While the Person class addresses the physical characteristics of a person, the U
 
 ### update_passphrase(new_passphrase)
 
-__Parameters__
-
-new_passphrase - String
-
-__Return value__
-
-None
-
 __Description__
 
 This method accepts a string as a new passphrase and then runs the `@user.create_encrypted_passphrase` method to create a Bcrypt based passphrase. Then, it updates its own passphrase property with this value.
 
-### create_encrypted_passphrase(passphrase)
-
 __Parameters__
 
-passphrase - String
+new_passphrase - String
 
-__Return value__
+__Return Type__
 
-String
+None
+
+### create_encrypted_passphrase(passphrase)
 
 __Description__
 
 This method accepts a passphrase as a string, and encrypts it with the `Bcrypt::Password.create` method.
 
-### encrypt_passphrase(passphrase)
-
 __Parameters__
 
 passphrase - String
 
-__Return value__
+__Return Type__
 
 String
+
+### encrypt_passphrase(passphrase)
 
 __Description__
 
 This method accepts a passphrase as a string, and encrypts it with the `Bcrypt::Password.new` method.
 
-### passphrase_authorized?(params)
-
 __Parameters__
 
-params - Hash of values used at the time of object creation for a User class
+passphrase - String
 
-__Return value__
+__Return Type__
 
-Boolean
+String
+
+### passphrase_authorized?(params)
 
 __Description__
 
 This method evaluates if the parameters passed through params (which will include a login_name and passphrase) matches the correct passphrase for the user object. If they match, the method will evaluate to true.
 
-### generate_passphrase_recovery_code
-
 __Parameters__
 
-None
+params - Hash of values used at the time of object creation for a User class
 
-__Return value__
+__Return Type__
 
-Recovery code string
+Boolean
+
+### generate_passphrase_recovery_code
 
 __Description__
 
 This method generates a new passphrase recovery code and returns the value. Additionally, it saves that value to the `passphrase_recovery_code` property to be evaluated.
 
-### evaluate_passphrase_recovery_code(passphrase_recovery_code)
-
 __Parameters__
 
-passphrase_recovery_code
+None
 
-__Return value__
+__Return Type__
 
-Boolean
+Recovery code string
+
+### evaluate_passphrase_recovery_code(passphrase_recovery_code)
 
 __Description__
 
 Evaluates the value passed through the parameter to see if it matches the existing set `passphrase_recovery_code` value.
 
-### set_unique_login_name(login_name = nil)
-
 __Parameters__
 
-login_name - String (optional)
+passphrase_recovery_code
 
-__Return value__
+__Return Type__
 
-String
+Boolean
+
+### set_unique_login_name(login_name = nil)
 
 __Description__
 
 Returns an adjusted login name based on regular expressions. If no login_name parameter is passed, then the object's `login_name` property is used.
 
-
-### login_name_unique?(login_name = nil)
-
 __Parameters__
 
 login_name - String (optional)
 
-__Return value__
+__Return Type__
 
-Boolean
+String
+
+### login_name_unique?(login_name = nil)
 
 __Description__
 
 Evaluates if the user's login name is unique. If there is a value for the parameters, it will evaluate the value in the parameters. If no parameters are set, it will determine the value returned by the `@user.set_unique_login_name` method.
 
+__Parameters__
+
+login_name - String (optional)
+
+__Return Type__
+
+Boolean
+
 ### valid_passphrase_confirmation?(passphrase,passphrase_confirm)
+
+__Description__
+
+This method is used in situations where a user must enter their passphrase twice. If both values of the standard 'passphrase' field and the 'passphrase_confirm' field match, the method will return true.
 
 __Parameters__
 
 passphrase - String
 passphrase_confirm - String
 
-__Return value__
+__Return Type__
 
 Boolean
 
-__Description__
-
-This method is used in situations where a user must enter their passphrase twice. If both values of the standard 'passphrase' field and the 'passphrase_confirm' field match, the method will return true.
-
 ### create_associate_preference
-
-__Parameters__
-
-None
-
-__Return value__
-
-Preference object
 
 __Description__
 
 Creates a new Preference object with default values and associates it to the user.
 
-### generate_verification_code
-
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
-String - the verification_code
+Preference object
+
+### generate_verification_code
 
 __Description__
 
 This method generates a new verification code and saves it to the `verification_code` property.
 
-### evaluate_verification_code(verification_code)
-
 __Parameters__
 
-verification_code
+None
 
-__Return value__
+__Return Type__
 
-Boolean
+String - the verification_code
+
+### evaluate_verification_code(verification_code)
 
 __Description__
 
 Accepts a verification code as an input parameter, if that value matches the property stored in `verification_code` then this method evaluates to true.
 
-### verify
-
 __Parameters__
 
-None
+verification_code
 
-__Return value__
+__Return Type__
 
-None
+Boolean
+
+### verify
 
 __Description__
 
 This method updates the verified value to `true`.
 
+__Parameters__
+
+None
+
+__Return Type__
+
+None
+
 ### verified?
+
+__Description__
+
+This method evaluates to determine if the `verified` property is `true`.
 
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 Boolean
-
-__Description__
-
-This method evaluates to determine if the `verified` property is `true`.
 
 ## Class Methods

@@ -30,7 +30,7 @@ __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 String that is used as unique identifier.
 

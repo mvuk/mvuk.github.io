@@ -39,16 +39,16 @@ The purpose of the websites class is to contain information about website URLs t
 
 ### full_address
 
+__Description__
+
+Returns the full web address in a formatted manner, taking into account properties such as `https` and `www`. For example, `https://www.example.com` would be returned if those values were true, and `http://example.com` would be returned if both were false.
+
 __Parameters__
 
 None
 
-__Return value__
+__Return Type__
 
 String
-
-__Description__
-
-Returns the full web address in a formatted manner, taking into account properties such as `https` and `www`. For example, `https://www.example.com` would be returned if those values were true, and `http://example.com` would be returned if both were false.
 
 ## Class Methods

@@ -43,17 +43,17 @@ During onboarding, a tow truck driver is given a list of the products that are u
 
 ### list_default_products
 
-__Parameters__
-
-None
-
-__Return value__
-
-Array, the DEFAULT_PRODUCTS
-
 __Description__
 
 Returns an array of strings, which are the product names as set in the class constant `DEFAULT_PRODUCTS`.
 
 For example, the method would return:
 `["Towing service", "Flat tire", "Unlock vehicle", "Battery jumpstart", "Gas refill"]`
+
+__Parameters__
+
+None
+
+__Return Type__
+
+Array
