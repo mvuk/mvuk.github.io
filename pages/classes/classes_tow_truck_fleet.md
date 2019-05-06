@@ -9,7 +9,13 @@ permalink: classes_tow_truck_fleet.html
 folder: classes
 ---
 
+## Inheritance
+
+[Organization](/classes_organization) > TowTruckFleet
+
 ## Introduction
+
+The tow truck fleet class is managed by the [TowTruckFleetManager](/classes_tow_truck_fleet_manager) in their respective dashboard.
 
 ## Modules
 

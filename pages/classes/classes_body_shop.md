@@ -9,8 +9,13 @@ permalink: classes_body_shop.html
 folder: classes
 ---
 
+## Inheritance
+
+[Organization](/classes_organization) > Body Shop
+
 ## Introduction
 
+The body shop class is managed by the [BodyShopManager](/classes_body_shop_manager) in their respective dashboard.
 
 ## Modules
 

@@ -11,6 +11,13 @@ folder: classes
 
 ## Introduction
 
+[Role](/classes_role) > [Manager](/classes_manager) > BodyShopManager
+
+## Introduction
+
+This class is the role for the manager of an [BodyShop](/classes_body_shop).
+
+Body managers have access to their own dashboard where they can manager their body shop. 
 
 ## Modules
 

@@ -9,7 +9,13 @@ permalink: classes_insurance_company.html
 folder: classes
 ---
 
+## Inheritance
+
+[Organization](/classes_organization) > InsuranceCompany
+
 ## Introduction
+
+The insurance company class is managed by the [InsuranceCompanyManager](/classes_insurance_company_manager) in their respective dashboard.
 
 ## Modules
 

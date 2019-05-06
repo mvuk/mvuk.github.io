@@ -9,7 +9,15 @@ permalink: classes_insurance_company_manager.html
 folder: classes
 ---
 
+## Inheritance
+
+[Role](/classes_role) > [Manager](/classes_manager) > InsuranceCompanyManager
+
 ## Introduction
+
+This class is the role for the manager of an [InsuranceCompany](/classes_insurance_company).
+
+Insurance company managers have access to their own dashboard where they can manager their insurance company. They can see which vehicle operators claim to be on their insurance plans and approve them. They can also select which body shops they approve of that their customers go to during services.
 
 ## Modules
 

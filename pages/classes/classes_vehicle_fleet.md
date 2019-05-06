@@ -9,7 +9,13 @@ permalink: classes_vehicle_fleet.html
 folder: classes
 ---
 
+## Inheritance
+
+[Organization](/classes_organization) > VehicleFleet
+
 ## Introduction
+
+The insurance company class is managed by the [VehicleFleetManager](/classes_vehicle_fleet_manager) in their respective dashboard.
 
 ## Modules
 
