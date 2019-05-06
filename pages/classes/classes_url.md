@@ -9,7 +9,13 @@ permalink: classes_url.html
 folder: classes
 ---
 
+## Inheritance
+
+[Session](/classes_session) > URL
+
 ## Introduction
+
+_Currently not in use._ To be used for analytics and user tracking.
 
 ## Modules
 
@@ -20,6 +26,11 @@ folder: classes
 ## Relationships
 
 ## Properties
+
+|Property|Type|
+|+-+|
+|:current|String|
+|:time_viewed|String|
 
 ## Methods
 

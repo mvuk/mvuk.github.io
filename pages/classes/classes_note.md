@@ -11,15 +11,26 @@ folder: classes
 
 ## Introduction
 
+Notes can be left about users. A user can leave a note about another user.
+
 ## Modules
 
 * Neo4j::ActiveNode
 * Neo4j::Timestamps
 * [GraphQueries](/modules_graph_queries.html)
+* [GenerateID](/modules_graph_queries.html)
 
 ## Relationships
 
+|Relationship|Direction|Name|RelClass|Target Class|
+|+-+|
+|has_one|:in|:user||[User](/classes_user)|
+
 ## Properties
+
+|Property|Type|
+|+-+|
+|:text|String|
 
 ## Methods
 

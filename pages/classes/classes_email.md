@@ -23,7 +23,7 @@ The email class covers the properties of storing email addresses of a person. Em
 
 |Relationship|Direction|Name|RelClass|Target Class|
 |+-+|
-|has_one|:in|:contact_info||[ContactInfo](/classes_contact_info.html)|
+|has_one|:in|:contact_info||[ContactInfo](/classes_contact_info)|
 
 ## Properties
 

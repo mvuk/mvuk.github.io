@@ -9,7 +9,15 @@ permalink: classes_safety_contact.html
 folder: classes
 ---
 
+## Inheritance
+
+[Person](/classes_person.html) > SafetyContact
+
 ## Introduction
+
+The safety contact is set up for the purpose of a [Customer](/classes_customer) to send them a link to follow along the trip in real time in the application.
+
+The safety contact is not a user, and exists just as a person with contact information as one single phone number.
 
 ## Modules
 
@@ -18,6 +26,10 @@ folder: classes
 * [GraphQueries](/modules_graph_queries.html)
 
 ## Relationships
+
+|Relationship|Direction|Name|RelClass|Target Class|
+|+-+|
+|has_one|:in|:customer||[Customer](/classes_customer)|
 
 ## Properties
 

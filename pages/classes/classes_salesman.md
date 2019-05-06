@@ -9,7 +9,17 @@ permalink: classes_salesman.html
 folder: classes
 ---
 
+## Inheritance
+
+[Role](/classes_role) > Salesman
+
 ## Introduction
+
+The salesman role is planned for use in selling the SafeTow application.
+
+The salesman has his own dashboard. On that dashboard, there are analytics and statistics about the SafeTow application, as well as the Map Editor that allows for him to demonstrate the product with an administrator's point of view without having the permissions of an administrator.
+
+The controller actions and views that demonstrate the product are tailored to be accessed specifically by the salesman.
 
 ## Modules
 

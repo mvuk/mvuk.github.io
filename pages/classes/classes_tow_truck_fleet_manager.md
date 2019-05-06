@@ -9,7 +9,15 @@ permalink: classes_tow_truck_fleet_manager.html
 folder: classes
 ---
 
+## Inheritance
+
+[Role](/classes_role) > [Manager](/classes_manager) > TowTruckFleetManager
+
 ## Introduction
+
+This class is the role for the manager of a [TowTruckFleet](/classes_tow_truck_fleet), more commonly referred to as a 'Tow Truck Company'.
+
+Tow truck fleet managers have access to their own dashboard where they can manage their company, vehicles and its drivers. Information is given about services and transactions.
 
 ## Modules
 
