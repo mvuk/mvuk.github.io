@@ -27,6 +27,24 @@ The insurance company class is managed by the [InsuranceCompanyManager](/classes
 
 ## Properties
 
+|Property|Type|
+|+-+|
+|:countries_serviced|Array|
+
 ## Methods
 
 ## Class Methods
+
+### setup_insurance_companies
+
+__Parameters__
+
+None
+
+__Return value__
+
+None
+
+__Description__
+
+Uses a class constant and application setting to create default insurance companies to be created and added into the database. This is important because when vehicle operators go to add in the insurance company they belong to, the object should already exist to them in an interface where they can select an object that already exists in the database.
