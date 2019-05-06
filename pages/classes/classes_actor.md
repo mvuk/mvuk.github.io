@@ -15,7 +15,7 @@ folder: classes
 
 ## Introduction
 
-The actor class inherits from both person and user. While person addresses the physical characteristics of someone on the SafeTow platform and User addresses the characteristics of having an account, actor addresses the relationship between them and one of the many [roles](/classes_role) which allow them to take action on the service.
+The actor class inherits from both person and user. While Person addresses the physical characteristics of someone on the SafeTow platform and User addresses the characteristics of having an account, actor addresses the relationship between them and one of the many [roles](/classes_role) which allow them to take action on the service.
 
 ## Modules
 
