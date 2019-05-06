@@ -11,6 +11,8 @@ folder: classes
 
 ## Introduction
 
+The purpose of the websites class is to contain information about website URLs that pertain to contact info of persons and organizations. Storing the value of a website in its own class gives it extensibility beyond being a single property in the 'Contact Info' class.
+
 ## Modules
 
 * Neo4j::ActiveNode

@@ -11,6 +11,7 @@ folder: classes
 
 ## Introduction
 
+The email class covers the properties of storing email addresses of a person. Email addresses are always associated to 'ContactInfo' objects which are in turn associated to all 'Persons'.
 
 ## Modules
 

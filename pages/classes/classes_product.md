@@ -11,7 +11,7 @@ folder: classes
 
 ## Introduction
 
-Products are used by Tow Truck Drivers. Tow Truck Drivers list the 'products' which they would offer to customers, and then they
+Products are used by Tow Truck Drivers. Tow Truck Drivers list the 'products' which they would offer to customer, and they set the prices for them accordingly.
 
 Since all tow truck drivers should be prompted to list prices for the same standard products, there are class constants that define the specific products.
 

@@ -11,7 +11,9 @@ folder: classes
 
 ## Introduction
 
-A preferences object is created for each user and associated to them. The preference contains all of the settings that a user can adjust that will change their experience within the SafeTow application.
+Whenever a new [User](/classes_user.html) (or [Actor](/classes_actor.html), which inherits from User) is created, a new preference object is created and associated with it.
+
+The preference contains all of the settings that a user can adjust that will change their experience within the SafeTow application.
 
 ## Modules
 
@@ -38,6 +40,7 @@ A preferences object is created for each user and associated to them. The prefer
 |:refresh_rate|String|
 |:radius|String|
 
+\#TODO, should radius be moved from preference to being a property of [VehicleOperator](/classes_vehicle_operator.html)?
 
 ## Methods
 
