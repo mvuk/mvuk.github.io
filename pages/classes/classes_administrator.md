@@ -11,9 +11,9 @@ folder: classes
 
 ## Introduction
 
-## Inheritance
-
 [Role](/classes_role) > Administrator
+
+## Inheritance
 
 The administrator class is the system-wide administrator. These administrators have access to a dashboard where they can monitor the application, view statistics, manage roles, approve documents and respond to support.
 
