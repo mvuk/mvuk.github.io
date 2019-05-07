@@ -21,7 +21,49 @@ The analytic class contains all of the methods for returning data in a readable,
 
 ## Properties
 
+## Class Methods
+
 ## Methods
+
+### active_services
+
+__Description__
+
+__Parameters__
+
+__Return Type__
+
+### average_service_duration
+
+__Description__
+
+__Parameters__
+
+__Return Type__
+
+### average_transaction_amount
+
+__Description__
+
+__Parameters__
+
+__Return Type__
+
+### cancelled_services
+
+__Description__
+
+__Parameters__
+
+__Return Type__
+
+### complete_services
+
+__Description__
+
+__Parameters__
+
+__Return Type__
 
 ### group(class_name,property,ignore_false = true)
 
@@ -69,39 +111,7 @@ __Return Type__
 
 Nested array of values in pattern [["value", 0],["value",1]]
 
-### total_services
-
-__Description__
-
-__Parameters__
-
-__Return Type__
-
-### active_services
-
-__Description__
-
-__Parameters__
-
-__Return Type__
-
-### complete_services
-
-__Description__
-
-__Parameters__
-
-__Return Type__
-
-### cancelled_services
-
-__Description__
-
-__Parameters__
-
-__Return Type__
-
-### average_service_duration
+### service_ordered_products
 
 __Description__
 
@@ -117,15 +127,7 @@ __Parameters__
 
 __Return Type__
 
-### service_ordered_products
-
-__Description__
-
-__Parameters__
-
-__Return Type__
-
-### average_transaction_amount
+### total_services
 
 __Description__
 
@@ -141,14 +143,6 @@ __Parameters__
 
 __Return Type__
 
-### transactions_with_rating
-
-__Description__
-
-__Parameters__
-
-__Return Type__
-
 ### transactions_average_rating
 
 __Description__
@@ -157,4 +151,10 @@ __Parameters__
 
 __Return Type__
 
-## Class Methods
+### transactions_with_rating
+
+__Description__
+
+__Parameters__
+
+__Return Type__

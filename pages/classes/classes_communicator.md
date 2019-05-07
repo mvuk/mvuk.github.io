@@ -29,21 +29,9 @@ Requires `twilio-ruby` gem.
 |auth_token|String|
 |sent_from_number|String|
 
+## Class Methods
+
 ## Methods
-
-### initialize
-
-__Description__
-
-Sets up a new `Twilio::REST::Client` that is required for usage of Twilio API within the Rails project.
-
-__Parameters__
-
-None
-
-__Return Type__
-
-None
 
 ### account_sid
 
@@ -73,35 +61,6 @@ __Return Type__
 
 String
 
-### sent_from_number
-
-__Description__
-
-Retrieves a value for the phone number that will be sending the outbound SMS messages.
-
-__Parameters__
-
-None
-
-__Return Type__
-
-String
-
-### setup_client(account_sid, auth_token)
-
-__Description__
-
-Initializes new `Twilio::REST::Client` from parameter values.
-
-__Parameters__
-
-account_sid - String
-auth_token - String
-
-__Return Type__
-
-None
-
 ### document_completion_notification(document_owner_id)
 
 __Description__
@@ -116,47 +75,15 @@ __Return Type__
 
 None
 
-### send_follow_trip_link(to_number, service_id)
+### initialize
 
 __Description__
 
-Sends an SMS message to the 'to_number' with a link to watch the trip and follow along on their own device.
+Sets up a new `Twilio::REST::Client` that is required for usage of Twilio API within the Rails project.
 
 __Parameters__
-
-to_number - String
-service_id - String
-
-__Return Type__
 
 None
-
-### organization_invitation(to_number, organization_id, member_id)
-
-__Description__
-
-Sends an SMS to the 'to_number' that has a link to complete their onboarding process.
-
-__Parameters__
-
-to_number - String
-organization_id - String
-member_id - String
-
-__Return Type__
-
-None
-
-### organization_confirmation(organization_id, member_id)
-
-__Description__
-
-Sends an SMS to the organization manager that the member role has successfully complete their onboarding and is confirmed.
-
-__Parameters__
-
-organization_id - String
-member_id - String
 
 __Return Type__
 
@@ -190,15 +117,32 @@ __Return Type__
 
 None
 
-### send_verification_code(actor_id)
+### organization_confirmation(organization_id, member_id)
 
 __Description__
 
-Sends a verification code to the actor specified in the ID along with a link to follow to complete the verification process of the account.
+Sends an SMS to the organization manager that the member role has successfully complete their onboarding and is confirmed.
 
 __Parameters__
 
-actor_id - String
+organization_id - String
+member_id - String
+
+__Return Type__
+
+None
+
+### organization_invitation(to_number, organization_id, member_id)
+
+__Description__
+
+Sends an SMS to the 'to_number' that has a link to complete their onboarding process.
+
+__Parameters__
+
+to_number - String
+organization_id - String
+member_id - String
 
 __Return Type__
 
@@ -218,4 +162,60 @@ __Return Type__
 
 None
 
-## Class Methods
+### send_verification_code(actor_id)
+
+__Description__
+
+Sends a verification code to the actor specified in the ID along with a link to follow to complete the verification process of the account.
+
+__Parameters__
+
+actor_id - String
+
+__Return Type__
+
+None
+
+### setup_client(account_sid, auth_token)
+
+__Description__
+
+Initializes new `Twilio::REST::Client` from parameter values.
+
+__Parameters__
+
+account_sid - String
+auth_token - String
+
+__Return Type__
+
+None
+
+### send_follow_trip_link(to_number, service_id)
+
+__Description__
+
+Sends an SMS message to the 'to_number' with a link to watch the trip and follow along on their own device.
+
+__Parameters__
+
+to_number - String
+service_id - String
+
+__Return Type__
+
+None
+
+### sent_from_number
+
+__Description__
+
+Retrieves a value for the phone number that will be sending the outbound SMS messages.
+
+__Parameters__
+
+None
+
+__Return Type__
+
+String

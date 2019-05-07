@@ -33,6 +33,6 @@ The email class covers the properties of storing email addresses of a person. Em
 |description|String|
 |address|String|
 
-## Methods
-
 ## Class Methods
+
+## Methods

@@ -32,6 +32,6 @@ The location object is a latitude/longitude pair. While a service is running, th
 |longitude|Float|
 |latitude|Float|
 
-## Methods
-
 ## Class Methods
+
+## Methods

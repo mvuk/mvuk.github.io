@@ -32,6 +32,6 @@ _Currently not in use._ To be used for analytics and user tracking.
 |current|String|
 |time_viewed|String|
 
-## Methods
-
 ## Class Methods
+
+## Methods

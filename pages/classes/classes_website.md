@@ -35,6 +35,8 @@ The purpose of the websites class is to contain information about website URLs t
 |https|Boolean|
 |www|Boolean|
 
+## Class Methods
+
 ## Methods
 
 ### full_address
@@ -50,5 +52,3 @@ None
 __Return Type__
 
 String
-
-## Class Methods

@@ -44,21 +44,9 @@ The organization class is the top level class for different types of organizatio
 |branch|String|
 |employee_number_range|String|
 
+## Class Methods
+
 ## Methods
-
-### manager_count
-
-__Description__
-
-Numeric value of how many managers are set for the organization.
-
-__Parameters__
-
-None
-
-__Return Type__
-
-Integer
 
 ### active_services
 
@@ -88,4 +76,16 @@ __Return Type__
 
 Array of services
 
-## Class Methods
+### manager_count
+
+__Description__
+
+Numeric value of how many managers are set for the organization.
+
+__Parameters__
+
+None
+
+__Return Type__
+
+Integer

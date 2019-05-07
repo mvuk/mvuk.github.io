@@ -47,6 +47,8 @@ The person class covers all the properties of a physical person. [User](/classes
 
 ## Methods
 
+## Class Methods
+
 ### full_name_gender_dob
 
 __Description__
@@ -60,5 +62,3 @@ None
 __Return Type__
 
 String
-
-## Class Methods

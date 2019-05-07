@@ -38,6 +38,8 @@ Support for phone numbers that do not fall within the scope of North America wil
 |number|String|
 |extension|String|
 
+## Class Methods
+
 ## Methods
 
 ### formatted_number
@@ -52,7 +54,3 @@ None
 __Return Type__
 
 String, phone number in format of (333) 444-5555
-
-
-
-## Class Methods

@@ -21,6 +21,6 @@ folder: classes
 
 ## Properties
 
-## Methods
-
 ## Class Methods
+
+## Methods

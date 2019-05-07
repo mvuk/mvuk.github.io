@@ -36,9 +36,21 @@ Right now, class methods are used to return lists of target pages where incomple
 |description|String|
 |complete|Boolean|
 
-## Methods
-
 ## Class Methods
+
+### incomplete_tasks
+
+__Description__
+
+*(Not yet implemented)*
+
+__Parameters__
+
+None
+
+__Return Type__
+
+Returns all task objects that have not been marked as complete.
 
 ### verify_tow_truck_driver_documents
 
@@ -54,16 +66,4 @@ __Return Type__
 
 Array of IDs belonging to tow truck drivers who have unverified documents
 
-### incomplete_tasks
-
-__Description__
-
-*(Not yet implemented)*
-
-__Parameters__
-
-None
-
-__Return Type__
-
-Returns all task objects that have not been marked as complete.
+## Methods

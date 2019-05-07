@@ -29,6 +29,6 @@ Insurance company managers have access to their own dashboard where they can man
 
 ## Properties
 
-## Methods
-
 ## Class Methods
+
+## Methods

@@ -39,21 +39,9 @@ At this time, there is the limitation that only customers are rating tow truck d
 |rating|Integer|
 |text|String|
 
+## Class Methods
+
 ## Methods
-
-### rating_formatted
-
-__Description__
-
-Returns the rating formatted in a string out of 5. For example, the method would return '4/5' if the rating value was '4'
-
-__Parameters__
-
-None
-
-__Return Type__
-
-String
 
 ### associate_to_transaction(transaction_id)
 
@@ -71,4 +59,16 @@ __Return Type__
 
 Transaction object
 
-## Class Methods
+### rating_formatted
+
+__Description__
+
+Returns the rating formatted in a string out of 5. For example, the method would return '4/5' if the rating value was '4'
+
+__Parameters__
+
+None
+
+__Return Type__
+
+String

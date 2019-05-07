@@ -42,6 +42,6 @@ The preference contains all of the settings that a user can adjust that will cha
 
 \#TODO, should radius be moved from preference to being a property of [VehicleOperator](/classes_vehicle_operator.html)?
 
-## Methods
-
 ## Class Methods
+
+## Methods

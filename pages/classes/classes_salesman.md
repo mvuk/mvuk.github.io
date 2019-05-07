@@ -31,6 +31,6 @@ The controller actions and views that demonstrate the product are tailored to be
 
 ## Properties
 
-## Methods
-
 ## Class Methods
+
+## Methods

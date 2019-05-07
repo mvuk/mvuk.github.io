@@ -20,8 +20,8 @@ folder: classes
 
 ## Relationships
 
+## Class Methods
+
 ## Properties
 
 ## Methods
-
-## Class Methods

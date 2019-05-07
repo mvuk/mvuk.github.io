@@ -27,6 +27,6 @@ The tow truck fleet class is managed by the [TowTruckFleetManager](/classes_tow_
 
 ## Properties
 
-## Methods
-
 ## Class Methods
+
+## Methods

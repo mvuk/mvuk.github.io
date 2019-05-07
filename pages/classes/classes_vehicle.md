@@ -46,6 +46,6 @@ The vehicle class is used for both tow trucks and customer vehicles. Vehicles ar
 |fuel_type|String|
 |vehicle_type|String|
 
-## Methods
-
 ## Class Methods
+
+## Methods

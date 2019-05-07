@@ -37,25 +37,6 @@ Customers can be independent of any organization, or belong to an [VehicleFleet]
 |+-+|
 |organization_confirmed|String|
 
-## Methods
-
-### vehicle_options_for_select
-
-__Description__
-
-This method returns an array of all vehicle options that a customer can select from when ordering a service. The list is returned in a readable format that involves license plate, makes, models, so that the customer can easily select which vehicle they need service for.
-
-If the customer belongs to an organization where the vehicles are owned by the organization, then they are returned those vehicles in the array and can select them as well.
-
-__Parameters__
-
-None
-
-__Return Type__
-
-Array
-
-
 ## Class Methods
 
 ### active_customers
@@ -65,6 +46,24 @@ __Description__
 Returns all customers who are currently active.
 
 The state of being active is computed from the last time that they updated their location in the application. If a customer has been on the application with their location updated within the last 30 minutes, then they are determined to be active.
+
+__Parameters__
+
+None
+
+__Return Type__
+
+Array
+
+## Methods
+
+### vehicle_options_for_select
+
+__Description__
+
+This method returns an array of all vehicle options that a customer can select from when ordering a service. The list is returned in a readable format that involves license plate, makes, models, so that the customer can easily select which vehicle they need service for.
+
+If the customer belongs to an organization where the vehicles are owned by the organization, then they are returned those vehicles in the array and can select them as well.
 
 __Parameters__
 

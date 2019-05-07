@@ -38,6 +38,6 @@ We may explore other solutions, such as free-software analytics tools that can t
 |url|String|
 |total_time|String|
 
-## Methods
-
 ## Class Methods
+
+## Methods

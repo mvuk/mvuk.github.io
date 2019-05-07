@@ -33,7 +33,23 @@ The ContactInfo class stores all of the contact information. It bridges actors a
 
 ## Properties
 
+## Class Methods
+
 ## Methods
+
+### address
+
+__Description__
+
+If there is one address, it will return the formatted physical address as a string. If there are multiple addresses, it will return an array of properly formatted addresses.
+
+__Parameters__
+
+None
+
+__Return Type__
+
+String or Array
 
 ### email_address
 
@@ -63,20 +79,6 @@ __Return Type__
 
 String or Array
 
-### address
-
-__Description__
-
-If there is one address, it will return the formatted physical address as a string. If there are multiple addresses, it will return an array of properly formatted addresses.
-
-__Parameters__
-
-None
-
-__Return Type__
-
-String or Array
-
 ### website
 
 __Description__
@@ -90,5 +92,3 @@ None
 __Return Type__
 
 String or Array
-
-## Class Methods

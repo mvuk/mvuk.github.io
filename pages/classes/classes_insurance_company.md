@@ -31,8 +31,6 @@ The insurance company class is managed by the [InsuranceCompanyManager](/classes
 |+-+|
 |countries_serviced|Array|
 
-## Methods
-
 ## Class Methods
 
 ### setup_insurance_companies
@@ -48,3 +46,5 @@ None
 __Return Type__
 
 None
+
+## Methods

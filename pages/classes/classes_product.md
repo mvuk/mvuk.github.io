@@ -37,8 +37,6 @@ During onboarding, a tow truck driver is given a list of the products that are u
 |description|String|
 |price|String|
 
-## Methods
-
 ## Class Methods
 
 ### list_default_products
@@ -57,3 +55,5 @@ None
 __Return Type__
 
 Array
+
+## Methods
