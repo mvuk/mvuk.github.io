@@ -51,7 +51,7 @@ __Return Type__
 
 Actor object
 
-## Methods
+## Instance Methods
 
 ### add_role(role_class)
 

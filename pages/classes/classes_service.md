@@ -144,7 +144,7 @@ __Return Type__
 
 Service object
 
-## Methods
+## Instance Methods
 
 ### active?
 

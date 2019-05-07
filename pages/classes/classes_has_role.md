@@ -23,4 +23,4 @@ folder: classes
 
 ## Class Methods
 
-## Methods
+## Instance Methods

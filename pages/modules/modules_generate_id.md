@@ -22,7 +22,7 @@ The intention of this class is to include methods that query the Neo4j
 
 
 
-## Methods
+## Instance Methods
 
 ## Class Methods
 

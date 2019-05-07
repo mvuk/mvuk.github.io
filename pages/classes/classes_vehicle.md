@@ -48,4 +48,4 @@ The vehicle class is used for both tow trucks and customer vehicles. Vehicles ar
 
 ## Class Methods
 
-## Methods
+## Instance Methods

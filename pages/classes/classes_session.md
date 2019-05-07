@@ -40,4 +40,4 @@ We may explore other solutions, such as free-software analytics tools that can t
 
 ## Class Methods
 
-## Methods
+## Instance Methods

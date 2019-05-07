@@ -55,7 +55,7 @@ __Return Type__
 
 Array
 
-## Methods
+## Instance Methods
 
 ### vehicle_options_for_select
 

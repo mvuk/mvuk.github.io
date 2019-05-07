@@ -29,4 +29,4 @@ The insurance company class is managed by the [VehicleFleetManager](/classes_veh
 
 ## Class Methods
 
-## Methods
+## Instance Methods

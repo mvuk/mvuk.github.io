@@ -46,7 +46,7 @@ The VehicleOperator class also makes use of the VehicleOperators Controller, whi
 
 ## Class Methods
 
-## Methods
+## Instance Methods
 
 ### active_services
 

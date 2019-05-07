@@ -45,7 +45,7 @@ Address stores data about physical addresses.
 |region|String|
 |active|Boolean|
 
-## Methods
+## Instance Methods
 
 ### full_address
 

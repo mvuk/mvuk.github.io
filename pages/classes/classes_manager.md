@@ -41,4 +41,4 @@ This class also determines the access level to which the manager is granted over
 
 ## Class Methods
 
-## Methods
+## Instance Methods

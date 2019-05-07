@@ -40,7 +40,7 @@ Support for phone numbers that do not fall within the scope of North America wil
 
 ## Class Methods
 
-## Methods
+## Instance Methods
 
 ### formatted_number
 

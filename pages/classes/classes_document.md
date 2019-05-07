@@ -43,7 +43,7 @@ This class makes use of the Paperclip gem which works with file uploads. File at
 
 ## Class Methods
 
-## Methods
+## Instance Methods
 
 ### attachment_path
 

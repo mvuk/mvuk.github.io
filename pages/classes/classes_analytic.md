@@ -23,7 +23,7 @@ The analytic class contains all of the methods for returning data in a readable,
 
 ## Class Methods
 
-## Methods
+## Instance Methods
 
 ### active_services
 

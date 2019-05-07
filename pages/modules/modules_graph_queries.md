@@ -22,7 +22,7 @@ The intention of this module is to include methods that are used to generate uni
 
 * bcrypt
 
-## Methods
+## Instance Methods
 
 ### generate_uuid_created_at
 

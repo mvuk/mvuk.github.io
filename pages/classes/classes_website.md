@@ -37,7 +37,7 @@ The purpose of the websites class is to contain information about website URLs t
 
 ## Class Methods
 
-## Methods
+## Instance Methods
 
 ### full_address
 

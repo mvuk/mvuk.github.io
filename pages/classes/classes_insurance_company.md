@@ -47,4 +47,4 @@ __Return Type__
 
 None
 
-## Methods
+## Instance Methods

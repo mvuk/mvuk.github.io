@@ -27,6 +27,6 @@ The body shop class is managed by the [BodyShopManager](/classes_body_shop_manag
 
 ## Properties
 
-## Methods
+## Instance Methods
 
 ## Class Methods

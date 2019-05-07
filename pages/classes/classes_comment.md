@@ -41,7 +41,7 @@ At this time, there is the limitation that only customers are rating tow truck d
 
 ## Class Methods
 
-## Methods
+## Instance Methods
 
 ### associate_to_transaction(transaction_id)
 

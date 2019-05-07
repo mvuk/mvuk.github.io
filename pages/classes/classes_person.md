@@ -45,7 +45,7 @@ The person class covers all the properties of a physical person. [User](/classes
 |hair_colour|String|
 |description|String|
 
-## Methods
+## Instance Methods
 
 ## Class Methods
 

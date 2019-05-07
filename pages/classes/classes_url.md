@@ -34,4 +34,4 @@ _Currently not in use._ To be used for analytics and user tracking.
 
 ## Class Methods
 
-## Methods
+## Instance Methods

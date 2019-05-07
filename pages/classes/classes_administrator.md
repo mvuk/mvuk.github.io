@@ -27,6 +27,6 @@ The administrator class is the system-wide administrator. These administrators h
 
 ## Properties
 
-## Methods
+## Instance Methods
 
 ## Class Methods

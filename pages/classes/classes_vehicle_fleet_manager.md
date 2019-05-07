@@ -31,4 +31,4 @@ Vehicle fleet managers have access to their own dashboard where they can manager
 
 ## Class Methods
 
-## Methods
+## Instance Methods

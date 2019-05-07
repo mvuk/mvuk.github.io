@@ -23,7 +23,7 @@ The Demo Data class fills in any data for the purpose of filling in content for 
 
 ## Class Methods
 
-## Methods
+## Instance Methods
 
 ### default_actor_contact_info
 

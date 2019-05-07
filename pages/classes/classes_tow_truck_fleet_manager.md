@@ -31,4 +31,4 @@ Tow truck fleet managers have access to their own dashboard where they can manag
 
 ## Class Methods
 
-## Methods
+## Instance Methods

@@ -17,7 +17,7 @@ folder: classes
 
 This class is the role for the manager of an [BodyShop](/classes_body_shop).
 
-Body managers have access to their own dashboard where they can manager their body shop. 
+Body managers have access to their own dashboard where they can manager their body shop.
 
 ## Modules
 
@@ -29,6 +29,6 @@ Body managers have access to their own dashboard where they can manager their bo
 
 ## Properties
 
-## Methods
+## Instance Methods
 
 ## Class Methods

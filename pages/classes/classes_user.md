@@ -50,7 +50,7 @@ While the Person class addresses the physical characteristics of a person, the U
 
 ## Class Methods
 
-## Methods
+## Instance Methods
 
 ### create_associate_preference
 

@@ -31,7 +31,7 @@ Requires `twilio-ruby` gem.
 
 ## Class Methods
 
-## Methods
+## Instance Methods
 
 ### account_sid
 

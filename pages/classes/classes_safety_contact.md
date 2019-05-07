@@ -35,4 +35,4 @@ The safety contact is not a user, and exists just as a person with contact infor
 
 ## Class Methods
 
-## Methods
+## Instance Methods

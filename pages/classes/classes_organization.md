@@ -46,7 +46,7 @@ The organization class is the top level class for different types of organizatio
 
 ## Class Methods
 
-## Methods
+## Instance Methods
 
 ### active_services
 

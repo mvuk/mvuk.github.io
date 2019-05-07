@@ -35,7 +35,7 @@ The ContactInfo class stores all of the contact information. It bridges actors a
 
 ## Class Methods
 
-## Methods
+## Instance Methods
 
 ### address
 

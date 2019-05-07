@@ -34,4 +34,4 @@ Notes can be left about users. A user can leave a note about another user.
 
 ## Class Methods
 
-## Methods
+## Instance Methods

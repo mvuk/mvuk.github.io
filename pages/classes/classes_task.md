@@ -66,4 +66,4 @@ __Return Type__
 
 Array of IDs belonging to tow truck drivers who have unverified documents
 
-## Methods
+## Instance Methods

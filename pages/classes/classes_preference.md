@@ -44,4 +44,4 @@ The preference contains all of the settings that a user can adjust that will cha
 
 ## Class Methods
 
-## Methods
+## Instance Methods

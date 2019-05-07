@@ -44,7 +44,7 @@ _A tow truck driver is using the application to serve customers. His [tow truck 
 
 ## Class Methods
 
-## Methods
+## Instance Methods
 
 ### confirm
 

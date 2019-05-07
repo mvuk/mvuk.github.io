@@ -33,4 +33,4 @@ The controller actions and views that demonstrate the product are tailored to be
 
 ## Class Methods
 
-## Methods
+## Instance Methods

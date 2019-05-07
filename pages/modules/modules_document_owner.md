@@ -16,7 +16,7 @@ This module is included with any class that uses documents.
 ```ruby
 ```
 
-## Methods
+## Instance Methods
 
 ### incomplete_documents?
 

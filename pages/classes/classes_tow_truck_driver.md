@@ -125,7 +125,7 @@ __Return Type__
 
 Array
 
-## Methods
+## Instance Methods
 
 ### average_rating
 

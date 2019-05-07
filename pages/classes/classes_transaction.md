@@ -67,7 +67,7 @@ __Return Type__
 
 Integer
 
-## Methods
+## Instance Methods
 
 ### confirm
 
