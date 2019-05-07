@@ -77,53 +77,21 @@ __Return Type__
 
 Array
 
-### local_active_tow_trucks_green(user_id)
+### local_active_tow_truck_drivers_filter_colour(user_id, colour)
 
 __Description__
 
-Returns array of 'green' status tow trucks. This means that these tow trucks are available for service trips and are not currently engaged with any customers.
-
-The 'user_id' is calculated like the `local_active_tow_trucks` method to ensure that the tow trucks are within an appropriate radius as set in preferences.
+Returns the colour value of the desired status code colour of tow truck. Follows the [status_colour method in VehicleOperator](/classes_vehicle_operator#status_colour). It is useful when wanting to return lists of specific states of tow trucks.
 
 __Parameters__
 
 user_id - String
+colour - String ('green','yellow', or 'red' are accepted)
 
 __Return Type__
 
 Array
 
-### local_active_tow_trucks_red(user_id)
-
-__Description__
-
-Returns array of 'red' status tow trucks. This means that these tow trucks have just become engaged in other services and likely will not become available for an extended period of time.
-
-The 'user_id' is calculated like the `local_active_tow_trucks` method to ensure that the tow trucks are within an appropriate radius as set in preferences.
-
-__Parameters__
-
-user_id - String
-
-__Return Type__
-
-Array
-
-### local_active_tow_trucks_yellow(user_id)
-
-__Description__
-
-Returns array of 'yellow' status tow trucks. This means that these tow trucks are currently engaged in service trips but will become available soon.
-
-The 'user_id' is calculated like the `local_active_tow_trucks` method to ensure that the tow trucks are within an appropriate radius as set in preferences.
-
-__Parameters__
-
-user_id - String
-
-__Return Type__
-
-Array
 
 ## Instance Methods
 

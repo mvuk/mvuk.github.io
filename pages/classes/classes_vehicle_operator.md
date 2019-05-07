@@ -288,6 +288,20 @@ __Return Type__
 
 None
 
+### status_colour
+
+__Description__
+
+Returns a string of a colour, either 'red', 'yellow', or 'green' about a given vehicle operator. Green implies that the vehicle operator is not on any type of service trip. Red means that they have just started a trip and will not be available for a long time. Yellow means that they are in a service that is almost complete.
+
+__Parameters__
+
+None
+
+__Return Type__
+
+String
+
 ### total_complete_services
 
 __Description__
