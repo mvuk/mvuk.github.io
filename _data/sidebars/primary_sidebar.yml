@@ -15,6 +15,24 @@ entries:
       url: /overview_package_managers.html
       output: web
 
+  - title: DevOps
+    output: web
+    folderitems:
+      - title: Introduction
+        url: /devops_introduction.html
+        output: web
+      - title: Docker
+        url: /devops_docker.html
+        output: web
+      - title: Local Development
+        url: /devops_local_development.html
+        output: web
+      - title: Kubernetes
+        url: /devops_kubernetes.html
+        output: web
+      - title: SafeTow CLI
+        url: /devops_safetow_cli.html
+        output: web
 
   - title: Assets
     output: web

@@ -9,7 +9,7 @@ topnav_title: SafeTow Developer Reference
 site_title: SafeTow Developer Reference
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Your company
+company_name: SafeTow
 # this appears in the footer
 
 github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
