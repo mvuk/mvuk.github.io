@@ -34,6 +34,19 @@ entries:
         url: /devops_safetow_cli.html
         output: web
 
+  - title: Mobile
+    output: web
+    folderitems:
+      - title: Introduction
+        url: /mobile_introduction.html
+        output: web
+      - title: Android
+        url: /mobile_android.html
+        output: web
+      - title: iOS
+        url: /mobile_ios.html
+        output: web
+
   - title: Assets
     output: web
     folderitems:
