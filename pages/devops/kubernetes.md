@@ -12,6 +12,51 @@ This document will go over what we need to discuss in terms of dev ops... import
 
 Kubernetes is a __container orchestration tool__. That means that it takes the Docker containers which we set up for our application and database, then co-ordinates them together on the cloud in a way that makes the application managable for us administrators and accessible for our users.
 
+### Example kubernetes cluster
+
+Kubernetes puts together our containers into a __cluster__. We use the cluster with the name `kubernetes.safetow.network`. This cluster's data is being stored in an AWS S3 bucket with a matching name.
+
+The following is the example of a fully operating kubernetes cluster, which would be made available to you through running `kubectl get all` in an active cluster.
+
+```
+NAME                                 READY   STATUS    RESTARTS   AGE
+pod/safetow-d47f87b6b-2q4s2          1/1     Running   0          2d
+pod/safetow-neo4j-7fd57b8749-rftt4   1/1     Running   0          2d
+
+NAME                    TYPE           CLUSTER-IP     EXTERNAL-IP                                                              PORT(S)                                        AGE
+service/kubernetes      ClusterIP      100.64.0.1     <none>                                                                   443/TCP                                        87d
+service/safetow         LoadBalancer   100.67.1.219   afdfb97f19db311e9ab780a444022e24-689211624.us-east-1.elb.amazonaws.com   80:30037/TCP,443:30455/TCP                     2d
+service/safetow-neo4j   NodePort       100.70.51.90   <none>                                                                   7474:30955/TCP,7473:30258/TCP,7687:31291/TCP   2d
+
+NAME                            DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/safetow         1         1         1            1           2d
+deployment.apps/safetow-neo4j   1         1         1            1           2d
+
+NAME                                       DESIRED   CURRENT   READY   AGE
+replicaset.apps/safetow-d47f87b6b          1         1         1       2d
+replicaset.apps/safetow-neo4j-7fd57b8749   1         1         1       2d
+
+NAME             STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   AGE
+neo4j-pv-claim   Bound    pvc-fe50d09b-9db3-11e9-ab78-0a444022e242   5Gi        RWO            gp2            2d
+```
+
+You will notice that the same names are repeated over and over, in this example we have __safetow__ and __safetow-neo4j__.
+
+What is happening is that each of these two labels is corresponding to at least 4 different types of _objects_, these are the __pod__, the __service__, the __deployment__ and the __replicaset__.
+
+The __pod__ is where you can image the "docker container" sitting, as an independent GNU/Linux filesystem (generally Debian) that would resemble a server running the real world. You can SSH into one of these pods through a terminal window and move around in it as if you were on any other machine. You can manipulate files, run programs, do anything you could usually do from your terminal and the changes will be reflected live. If the software running in a pod crashes, it will restart on its own.
+
+The __neo4j-pv-claim__ is a "persistent volume claim" that is attached to the neo4j service, deployment and pod. If the pod crashes and resets, no data is lost because there is a mounted storage volume that sits independently from that pod.
+
+The __deployment__ manages the pods. It defines which docker containers are used in each type of pod, and sets the environment variables to be used in each.
+
+The __service__ contains the data about networking. It describes the access of ports for the corresponding pod and deployments to which it is linked. Notice that only the _service/safetow_ service has an external IP, meaning it can be networked to from the outside world. That long URL is later mapped to our chosen domain name at _app.safetow.network_.
+
+The __replicaset__ ...
+
+The __configmap__ ...
+
+\#TODO finish this explanation
 
 ## Kops on AWS
 

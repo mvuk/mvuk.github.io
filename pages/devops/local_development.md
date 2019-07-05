@@ -22,7 +22,7 @@ version: '3'
 services:
   db:
     build:
-      context: docker-config-data/neo4j-container-development
+      context: docker-config-data/neo4j
       dockerfile: Dockerfile
     ports:
      - "7474:7474"
