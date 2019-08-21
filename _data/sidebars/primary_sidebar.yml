@@ -14,7 +14,9 @@ entries:
     - title: Package Managers
       url: /overview_package_managers.html
       output: web
-
+    - title: ActionCable and WebSockets
+      url: /action_cable_websockets.html
+      output: web
   - title: DevOps
     output: web
     folderitems:
@@ -206,3 +208,101 @@ entries:
     - title: GraphQueries
       url: /modules_graph_queries.html
       output: web
+
+  - title: Controllers
+    output: web
+    folderitems:
+      - title: Access
+        url: /controllers_access.html
+        output: web
+      - title: Actors
+        url: /controllers_actors.html
+        output: web
+      - title: Addresses
+        url: /controllers_addresses.html
+        output: web
+      - title: Administrator Dashboard
+        url: /controllers_administrator_dashboard.html
+        output: web
+      - title: Application
+        url: /controllers_application.html
+        output: web
+      - title: Body Shop Dashboard
+        url: /controllers_body_shop_dashboard.html
+        output: web
+      - title: Comments
+        url: /controllers_comments.html
+        output: web
+      - title: Dashboard
+        url: /controllers_dashboard.html
+        output: web
+      - title: Documents
+        url: /controllers_documents.html
+        output: web
+      - title: Emails
+        url: /controllers_emails.html
+        output: web
+      - title: Fleet Dashboard
+        url: /controllers_fleet_dashboard.html
+        output: web
+      - title: Insurance Companies
+        url: /controllers_insurance_companies.html
+        output: web
+      - title: Insurance Company Dashboard
+        url: /controllers_insurance_company_dashboard.html
+        output: web
+      - title: Locations
+        url: /controllers_locations.html
+        output: web
+      - title: Manager Access
+        url: /controllers_manager_access.html
+        output: web
+      - title: Onboarding
+        url: /controllers_onboarding.html
+        output: web
+      - title: Organization Signup
+        url: /controllers_organization_signup.html
+        output: web
+      - title: Phones
+        url: /controllers_phones.html
+        output: web
+      - title: Polling
+        url: /controllers_polling.html
+        output: web
+      - title: Preferences
+        url: /controllers_preferences.html
+        output: web
+      - title: Products
+        url: /controllers_products.html
+        output: web
+      - title: Reset Passphrase
+        url: /controllers_reset_passphrase.html
+        output: web
+      - title: Salesman Dashboard
+        url: /controllers_salesman_dashboard.html
+        output: web
+      - title: Services
+        url: /controllers_services.html
+        output: web
+      - title: Sessions
+        url: /controllers_sessions.html
+        output: web
+      - title: Tow Truck Drivers
+        url: /controllers_tow_truck_drivers.html
+        output: web
+      - title: Transactions
+        url: /controllers_transactions.html
+        output: web
+      - title: Trusted Contacts
+        url: /controllers_trusted_contacts.html
+        output: web
+      - title: Vehicle Fleet Manager
+        url: /controllers_vehicle_fleet_manager.html
+        output: web
+      - title: Vehicle Operator Dashboard
+        url: /controllers_vehicle_operator_dashboard.html
+        output: web
+      - title: Vehicles
+        url: /controllers_salesman_dashboard.html
+        output: web
+
