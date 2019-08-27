@@ -17,11 +17,17 @@ entries:
     - title: ActionCable and WebSockets
       url: /action_cable_websockets.html
       output: web
+    - title: Demo Data
+      url: /demo_data.html
+      output: web
   - title: DevOps
     output: web
     folderitems:
       - title: Introduction
         url: /devops_introduction.html
+        output: web
+      - title: Heroku
+        url: /devops_heroku.html
         output: web
       - title: Docker
         url: /devops_docker.html

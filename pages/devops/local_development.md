@@ -10,6 +10,40 @@ When working locally, we need to create an environment that matches the settings
 
 SafeTow is built in Ruby version 2.5.0. When working locally with the project, it is recommended that you install the [Ruby Version Manager (RVM)](https://rvm.io/)) and set your local Ruby version to 2.5.0.
 
+## Running on your local machine
+
+There are __three services__ which must be running locally on your computer to work with Rails locally. 
+
+We must run each of them to start. Rails configration for the development environment is pre-set so that each of them will properly plug in. Ensure that all of the command outlined in this section are run from the safetow-rails project root directory.
+
+- Neo4j Database
+- Redis Server
+- Rails Server
+
+### Neo4j Database
+
+1. Run `rake neo4j:start`
+2. The Neo4j server is running now at port 7474
+3. To end the database process from running, run `rake neo4j:stop`
+
+### Redis Server
+
+1. Make sure that redis is installed with `brew install redis`
+2. Open new command line window
+3. Run `redis-server`
+4. Keep this window open for as long as your project is running. Rails server will not run without it.
+5. To close, execute `control + c` in the command window
+
+### Rails Server
+
+1. Open a new command line window
+2. Run `rails s`
+3. Navigate to _"localhost:3000"_
+4. To close, execute `control + c` in the command window
+
+__NOTE: Everything below this line with Docker compose is currently not working because Redis is not yet configured and set up into it yet.__ 
+
+---
 
 ## Docker Compose
 

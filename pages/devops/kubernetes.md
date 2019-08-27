@@ -20,7 +20,7 @@ The following is the example of a fully operating kubernetes cluster, which woul
 
 ```
 NAME                                 READY   STATUS    RESTARTS   AGE
-pod/safetow-d47f87b6b-2q4s2          1/1     Running   0          2d
+pod/safetow-d47f87b6b-2q4s2        1/1     Running   0          2d
 pod/safetow-neo4j-7fd57b8749-rftt4   1/1     Running   0          2d
 
 NAME                    TYPE           CLUSTER-IP     EXTERNAL-IP                                                              PORT(S)                                        AGE

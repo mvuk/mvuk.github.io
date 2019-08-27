@@ -107,8 +107,92 @@ module ApplicationCable
 end
 ```
 
-### Ruby Channels 
+### Creating a new channel
 
-In our application, there is the directory `app/channels/`. In here you will find all of the Ruby logic associated with
+We set up a channel in the terminal with the following code at the Rails project default line: `$ rails generate channel Broadcast`. 
 
-### JavaScript Channels
+We call it the broadcast channel because it deals with the 'broadcasting' of messages of data to each users. It does not have anything to do with "Service Broadcasts", but rather it deals with the fact that the method for sending a message is written as __ActionCable.server.broadcast__, meaning it is a universal messaging channel. \#TODO we can reconsider that name.
+
+That would create two new files that we would work with as dealt with below, see `app/channels/broadcast_channel.rb` and `app/assets/javascript/channels/broadcast.coffee`
+
+### broadcast_channel.rb 
+
+`app/channels/broadcast_channel.rb`
+
+This contains the ruby code that deals with the subscription of the client to the channel. The following code snippet is a simplified version of the code.
+
+```ruby
+class BroadcastChannel < ApplicationCable::Channel
+
+  def subscribed
+    stream_from "broadcast_channel_user_#{current_user}"
+  end
+
+  def unsubscribed
+    # Any cleanup needed when channel is unsubscribed
+  end
+  
+end
+```
+
+This means that each member who is "subscribed" to the channel, will have their own subscription with their username. For example, "johnsmith" will be accessible with __broadcast_channel_user_johnsmith__.
+
+### broadcast.coffee
+
+`app/assets/javascript/channels/broadcast.coffee`
+
+This is written in __CoffeeScript__, which compiles into JavaScript as part of the asset pipeline. The syntax of CoffeeScript is meant to more closely resemble Ruby. The channel can also be written in _vanilla_ JavaScript, but CoffeeScript is the standard followed throughout examples and documentation. There are services on the web that you can use to translate JavaScript code into CoffeeScript. The following code is our simple broadcast channel logic.
+
+```coffeescript
+App.service = App.cable.subscriptions.create "BroadcastChannel",
+  connected: ->
+    # Called when the subscription is ready for use on the server
+
+  disconnected: ->
+    # Called when the subscription has been terminated by the server
+
+  received: (data) ->
+    # Called when there's incoming data on the websocket for this channel
+    if data.reload
+#      console.log("time to reload!")
+#      alert("time to reload!")
+      reload()
+
+reload = ->
+#  console.log 'Time to reload the page'
+  window.location.reload()
+  return
+```
+
+We have a custom __reload__ method that is written, that will simple reload the window when it is called. For the __received__ situation, that is anytime we call the following method. Keep in mind that the following code is __Ruby__ and it is placed in the __controller action__ where you want the specific channel to be acted on. In our SafeTow system, each channel pertains to a specific different user.
+
+```ruby
+ActionCable.server.broadcast channel,
+                             options
+```
+
+In the following example I show a given situation on how we could practically write that. We use the following Ruby code to deliver data, where we interpolate in the "user_id" for whichever actor we want to message.
+
+```ruby
+ActionCable.server.broadcast "broadcast_channel_user_#{user_id}",
+                                       reload: true
+```
+
+Notice that in the __CoffeeScript__ example for the _received_ method I evaluate "__if data.reload__". Because in the Ruby broadcast __reload: true__ is passed through, it will resolve to true in the CoffeeScript and then the client of the appropriate page is refreshed.
+
+_Any type of data_ can be passed through, for example instead of a boolean value you can pass in an array, then work with that data in the JavaScript on the client side, then determine which appropriate JavaScript should be executed on the client's device. That could be to manipulate the DOM, reload the page, go back a page, call an AJAX request, for a few examples.
+ 
+A good example of this would be during the creation of a service. First, a service is created and saved to the database. Once the service is created, we need to notify all of the tow truck drivers of the new service they are eligible for, then refresh their screens to display it.
+
+This is a snipped from the _create_broadcast_ method in the _services_controller.rb_. It is not the actual full code, but just a shortened example to show the relevant lines of code.
+
+```ruby
+@service = Service.new(service_params)
+@service.save
+@service.broadcast_requests
+@service.requests.each do |requested_tow_truck_driver|
+  ActionCable.server.broadcast "broadcast_channel_user_#{requested_tow_truck_driver.actor.id}",
+                               reload: true
+end
+```
+
