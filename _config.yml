@@ -112,5 +112,6 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-# url: http://idratherbewriting.com
-# baseurl: /documentation-theme-jekyll
+domain: mvuk.github.io
+url: http://mvuk.github.io
+baseurl: /documentation-theme-jekyll/
